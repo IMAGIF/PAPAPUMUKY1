@@ -53,8 +53,6 @@ https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
 https://dacastmmd.mmdlive.lldns.net/dacastmmd/1b6bbade53634f5a847b953c9adfd102/index.m3u8
 #EXTINF:0 type="favorites" channelId="-1" group="Azerbaijan" logo="https://i.imgur.com/fM9FOrZ.png", Idman
 https://edge02.odtv.az/o7/idman/playlist.m3u8
-#EXTINF:0 type="favorites" channelId="-1" group="Music" logo="https://i.imgur.com/Ty7GkoN.png", XPTV1 (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 #EXTINF:0 type="favorites" channelId="-1" group="Russia" logo="https://i.imgur.com/fXESG0l.png", Viju+ Sport
 https://edge02.odtv.az/o7/viasatsport/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="935" group="Argentina" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png", HBO2
