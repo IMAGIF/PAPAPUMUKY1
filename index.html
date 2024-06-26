@@ -67,44 +67,42 @@
             text-align: center; /* Centrar el texto */
         }
 
-        .archivo-item {
-            display: flex;
-            flex-direction: row; /* Coloca la imagen y el texto en una fila */
-            align-items: center; /* Centra verticalmente */
-            max-width: 800px;
-            width: 100%;
-            background-color: #fff; /* Fondo blanco para el contenido */
-            border-radius: 10px;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
-            margin-bottom: 20px; /* Espacio entre los archivos */
-        }
-
-        .archivo-item img {
-            width: 150px; /* Ancho de la imagen */
-            height: auto;
-            border-radius: 10px;
-            margin-right: 20px; /* Espacio entre la imagen y el texto */
-        }
-
-        .archivo-item .texto {
-            flex-grow: 1;
-            text-align: left; /* Alinear el texto a la izquierda */
-        }
-
-        .archivo-item h2 {
-            margin: 0;
-            font-size: 18px;
-        }
-
-        .archivo-item p {
-            margin: 5px 0 0;
-            font-size: 14px;
-        }
-
-        .archivo-item a {
+        .archivo .archivo-boton {
+            display: block;
+            width: 200px; /* Ancho de los botones */
+            margin: 10px auto; /* Espaciado y centrado */
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
             text-decoration: none;
-            color: #333;
+            text-align: center;
+        }
+
+        .archivo .deportes {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .peliculas {
+            background-color: #1e90ff; /* Fondo azul */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .noticias {
+            background-color: #ff6347; /* Fondo rojo tomate */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .documentales {
+            background-color: #32cd32; /* Fondo verde lima */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .espana {
+            background-color: #ffa500; /* Fondo naranja */
+            color: #fff; /* Texto blanco */
         }
 
         .barra-mensaje {
@@ -124,21 +122,6 @@
                 max-width: 100%; /* Ancho máximo */
                 padding: 10px; /* Espacio interno */
                 font-size: 14px; /* Tamaño de fuente más pequeño */
-            }
-
-            .archivo-item {
-                flex-direction: row; /* Mantener la dirección de fila */
-                align-items: center;
-                text-align: center; /* Centrar el texto */
-            }
-
-            .archivo-item img {
-                width: 100px; /* Ajustar el ancho de la imagen para dispositivos pequeños */
-                margin-right: 10px; /* Espacio reducido entre la imagen y el texto */
-            }
-
-            .archivo-item .texto {
-                text-align: left; /* Alinear el texto a la izquierda */
             }
         }
 
@@ -168,13 +151,11 @@
         <p>LISTAS PERSONALES IPTV</p>
     </div>
     <div class="archivo">
-        <div class="archivo-item">
-            <div class="texto">
-                <h2>Archivo M3U</h2>
-                <p>Nombre del archivo M3U y descripción si deseas.</p>
-                <a href="2024 04 12 DEPORTES.m3u" download>Descargar</a>
-            </div>
-        </div>
+        <a href="DEPORTES.m3u" class="archivo-boton deportes" download>DEPORTES</a>
+        <a href="PELICULAS.m3u" class="archivo-boton peliculas" download>PELÍCULAS</a>
+        <a href="NOTICIAS.m3u" class="archivo-boton noticias" download>NOTICIAS</a>
+        <a href="DOCUMENTALES.m3u" class="archivo-boton documentales" download>DOCUMENTALES</a>
+        <a href="ESPAÑA.m3u" class="archivo-boton espana" download>ESPAÑA</a>
     </div>
     <footer>
         <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
