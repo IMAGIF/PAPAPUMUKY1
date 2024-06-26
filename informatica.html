@@ -11,7 +11,7 @@
             color: #333; /* Color de texto principal */
             margin: 0;
             padding-bottom: 60px; /* Espacio para el footer */
-            position: relative; /* Asegura que el footer esté al final */
+            display: flex; /* Hacer el body un contenedor flex */
         }
 
         header {
@@ -24,6 +24,32 @@
             margin: 0 auto; /* Centra la cabecera */
             border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+        }
+
+        .sidebar {
+            width: 200px; /* Ancho del menú lateral */
+            background-color: #1e2851; /* Color de fondo del menú lateral */
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Sombra lateral */
+        }
+
+        .sidebar a {
+            display: block;
+            color: #fff; /* Color de texto blanco */
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            background-color: #333; /* Fondo oscuro para los enlaces */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+
+        .sidebar a:hover {
+            background-color: #575757; /* Fondo ligeramente más claro al pasar el ratón */
+        }
+
+        .content {
+            flex-grow: 1; /* Permite que el contenido crezca y tome el espacio disponible */
+            padding: 20px;
         }
 
         .header-buttons {
@@ -140,25 +166,31 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1 class="titulo">INFORMÁTICA</h1>
-        <div class="header-buttons">
-            <a href="https://www.pinterest.es/InspiraCreatividadOnline/" class="pinterest" target="_blank">PINTEREST</a>
-            <a href="https://www.youtube.com/channel/UC8m_l7-pDh3W0jnSKNayLLw?sub_confirmation=1" class="youtube" target="_blank">YOUTUBE</a>
+    <div class="sidebar">
+        <a href="index.html">Inicio</a>
+        <a href="informatica.html">Informática</a>
+    </div>
+    <div class="content">
+        <header>
+            <h1 class="titulo">LISTAS IPTV PERSONALES - INFORMÁTICA</h1>
+            <div class="header-buttons">
+                <a href="https://www.pinterest.es/InspiraCreatividadOnline/" class="pinterest" target="_blank">PINTEREST</a>
+                <a href="https://www.youtube.com/channel/UC8m_l7-pDh3W0jnSKNayLLw?sub_confirmation=1" class="youtube" target="_blank">YOUTUBE</a>
+            </div>
+        </header>
+        <div class="barra-mensaje">
+            <p>LISTAS PERSONALES IPTV - INFORMÁTICA</p>
         </div>
-    </header>
-    <div class="barra-mensaje">
-        <p>LISTAS PERSONALES IPTV</p>
+        <div class="archivo">
+            <a href="DEPORTES.m3u" class="archivo-boton deportes" download>DEPORTES</a>
+            <a href="PELICULAS.m3u" class="archivo-boton peliculas" download>PELÍCULAS</a>
+            <a href="NOTICIAS.m3u" class="archivo-boton noticias" download>NOTICIAS</a>
+            <a href="DOCUMENTALES.m3u" class="archivo-boton documentales" download>DOCUMENTALES</a>
+            <a href="ESPAÑA.m3u" class="archivo-boton espana" download>ESPAÑA</a>
+        </div>
+        <footer>
+            <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
+        </footer>
     </div>
-    <div class="archivo">
-        <a href="DEPORTES.m3u" class="archivo-boton deportes" download>DEPORTES</a>
-        <a href="PELICULAS.m3u" class="archivo-boton peliculas" download>PELÍCULAS</a>
-        <a href="NOTICIAS.m3u" class="archivo-boton noticias" download>NOTICIAS</a>
-        <a href="DOCUMENTALES.m3u" class="archivo-boton documentales" download>DOCUMENTALES</a>
-        <a href="ESPAÑA.m3u" class="archivo-boton espana" download>ESPAÑA</a>
-    </div>
-    <footer>
-        <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
