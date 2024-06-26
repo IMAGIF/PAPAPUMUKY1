@@ -2,4 +2,16 @@ https://github.com/PAPAPUMUKY1
 
 2024 04 12 DEPORTES.m3u
 
-https://imagif.github.io/PAPAPUMUKY1/2024%2004%2012%20DEPORTES.m3u
+https://imagif.github.io/PAPAPUMUKY1/DEPORTES.m3u
+
+PELICULAS
+https://imagif.github.io/PAPAPUMUKY1/PELICULAS.m3u
+
+NOTICIAS
+https://imagif.github.io/PAPAPUMUKY1/NOTICIAS.m3u
+
+DOCUMENTALES
+https://imagif.github.io/PAPAPUMUKY1/DOCUMENTALES.m3u
+
+ESPAÑA
+https://imagif.github.io/PAPAPUMUKY1/ESPA%C3%91A.m3u
