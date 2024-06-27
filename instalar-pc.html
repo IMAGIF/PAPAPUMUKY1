@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalar PC</title>
+    <title>Instalar PC - Listas IPTV PERSONALES</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -13,17 +13,113 @@
             padding-bottom: 60px; /* Espacio para el footer */
         }
 
+        header {
+            background-color: #1e2851; /* Color de fondo azul oscuro */
+            color: #fff; /* Color de texto blanco */
+            text-align: center;
+            padding: 10px 0;
+            position: relative; /* Asegura que el menú se posiciona correctamente */
+            max-width: 850px; /* Ancho máximo de la cabecera */
+            margin: 0 auto; /* Centra la cabecera */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+            display: flex; /* Utilizamos flexbox para alinear elementos */
+            justify-content: space-between; /* Espacio entre los elementos */
+            align-items: center; /* Alineación vertical centrada */
+        }
+
+        .menu-container {
+            position: absolute; /* Posición absoluta para situar el menú correctamente */
+            top: 10px; /* Alineado con el contenido del header */
+            left: 10px; /* Espaciado desde el borde izquierdo */
+        }
+
+        .menu-button {
+            background-color: #ff0000; /* Fondo rojo */
+            color: #fff; /* Texto blanco */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 20px; /* Espacio a la izquierda para separar del borde */
+        }
+
+        .menu-button:hover {
+            background-color: #cc0000; /* Cambio de color al pasar el ratón */
+        }
+
+        .dropdown-content {
+            display: none; /* Oculto por defecto */
+            position: absolute;
+            background-color: #1e2851; /* Fondo del dropdown */
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
+            z-index: 1;
+            border-radius: 5px;
+        }
+
+        .dropdown-content a {
+            color: white; /* Texto blanco */
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757; /* Fondo ligeramente más claro al pasar el ratón */
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block; /* Mostrar el contenido al pasar el ratón */
+        }
+
+        .header-buttons {
+            display: flex;
+            justify-content: flex-end; /* Alinea el botón a la derecha */
+            align-items: center; /* Alinea verticalmente */
+            padding: 0 20px; /* Espacio a los lados para los botones */
+            margin-top: 10px; /* Espacio entre el título y los botones */
+        }
+
+        .header-buttons a {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            padding: 10px 20px;
+            font-size: 12px; /* Tamaño de fuente */
+            border: none; /* Sin borde */
+            cursor: pointer; /* Cursor de puntero al pasar por encima */
+            border-radius: 5px; /* Bordes redondeados */
+            text-decoration: none; /* Sin subrayado */
+            text-align: center; /* Centra el texto en los botones */
+            margin-left: 10px; /* Espacio entre botones */
+        }
+
+        .titulo {
+            font-size: 36px; /* Tamaño de fuente grande para el título */
+            margin: 20px 0; /* Espacio alrededor del título */
+        }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 0 0 45%; /* 45% de ancho, pero no se flexiona */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alineación de elementos centrada */
         }
 
         .boton {
-            display: inline-block;
-            width: calc(50% - 20px); /* Ancho del 50% menos el margen */
-            margin: 10px;
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
             padding: 15px 20px;
             background-color: #1e2851; /* Fondo azul oscuro */
             color: #fff; /* Texto blanco */
@@ -40,15 +136,40 @@
         }
 
         @media (max-width: 600px) {
-            .boton {
-                width: 100%; /* Botones ocupan el ancho completo en dispositivos pequeños */
+            .column {
+                flex: 0 0 100%; /* Columnas ocupan el ancho completo en dispositivos pequeños */
+                margin-bottom: 20px; /* Espacio entre columnas */
             }
+        }
+
+        footer {
+            background-color: #1e2851; /* Color de fondo azul oscuro */
+            color: #fff; /* Color de texto blanco */
+            text-align: center;
+            padding: 10px 0;
+            position: relative; /* Cambiado a relativo */
+            max-width: 850px; /* Ancho máximo del footer */
+            margin: 0 auto; /* Centrar el footer */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
         }
     </style>
 </head>
 <body>
+    <header>
+        <div class="menu-container">
+            <div class="dropdown">
+                <button class="menu-button">MENÚ</button>
+                <div class="dropdown-content">
+                    <a href="index.html">LISTAS IPTV</a>
+                    <a href="informatica.html">INFORMÁTICA</a>
+                </div>
+            </div>
+        </div>
+        <h1 class="titulo">Instalar PC</h1>
+    </header>
+
     <div class="container">
-        <h1>Instalar PC</h1>
         <div class="column">
             <a href="enlace-1.html" class="boton">BOTON 1</a>
             <a href="enlace-2.html" class="boton">BOTON 2</a>
@@ -64,5 +185,9 @@
             <a href="enlace-10.html" class="boton">BOTON 10</a>
         </div>
     </div>
+
+    <footer>
+        <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
