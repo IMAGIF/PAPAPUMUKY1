@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalar PC - Listas IPTV PERSONALES</title>
+    <title>INSTALAR PC</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -29,9 +29,7 @@
         }
 
         .menu-container {
-            position: absolute; /* Posición absoluta para situar el menú correctamente */
-            top: 10px; /* Alineado con el contenido del header */
-            left: 10px; /* Espaciado desde el borde izquierdo */
+            flex: 1;
         }
 
         .menu-button {
@@ -42,7 +40,6 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            margin-left: 20px; /* Espacio a la izquierda para separar del borde */
         }
 
         .menu-button:hover {
@@ -79,7 +76,6 @@
             justify-content: flex-end; /* Alinea el botón a la derecha */
             align-items: center; /* Alinea verticalmente */
             padding: 0 20px; /* Espacio a los lados para los botones */
-            margin-top: 10px; /* Espacio entre el título y los botones */
         }
 
         .header-buttons a {
@@ -97,48 +93,80 @@
 
         .titulo {
             font-size: 36px; /* Tamaño de fuente grande para el título */
-            margin: 20px 0; /* Espacio alrededor del título */
+            margin: 0;
+            flex: 2; /* Ocupa el espacio restante */
+            text-align: center; /* Centra el texto */
         }
 
-        .container {
+        .archivo {
             max-width: 800px;
-            margin: 20px auto;
+            margin: 0 auto;
             padding: 20px;
-            text-align: center;
-            display: flex;
-            justify-content: space-between;
+            text-align: center; /* Centrar el texto */
         }
 
-        .column {
-            flex: 0 0 45%; /* 45% de ancho, pero no se flexiona */
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Alineación de elementos centrada */
-        }
-
-        .boton {
-            display: block;
-            width: 100%;
-            margin-bottom: 10px;
-            padding: 15px 20px;
-            background-color: #1e2851; /* Fondo azul oscuro */
-            color: #fff; /* Texto blanco */
+        .archivo .archivo-boton {
+            display: inline-block;
+            width: 45%; /* Ancho de los botones */
+            margin: 10px 2.5%; /* Espaciado y centrado */
+            padding: 10px 20px;
             font-size: 16px;
-            text-decoration: none;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+            text-decoration: none;
+            text-align: center;
         }
 
-        .boton:hover {
-            background-color: #233b67; /* Color de fondo más oscuro al pasar el ratón */
+        .archivo .deportes {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .peliculas {
+            background-color: #1e90ff; /* Fondo azul */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .noticias {
+            background-color: #ff6347; /* Fondo rojo tomate */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .documentales {
+            background-color: #32cd32; /* Fondo verde lima */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .espana {
+            background-color: #ffa500; /* Fondo naranja */
+            color: #fff; /* Texto blanco */
+        }
+
+        .barra-mensaje {
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            text-align: center;
+            padding: 10px 0;
+            margin: 20px 0;
+            width: 850px; /* Ancho igual al de la cabecera */
+            margin: 0 auto; /* Centrado horizontal */
+            border-radius: 10px; /* Bordes redondeados */
         }
 
         @media (max-width: 600px) {
-            .column {
-                flex: 0 0 100%; /* Columnas ocupan el ancho completo en dispositivos pequeños */
-                margin-bottom: 20px; /* Espacio entre columnas */
+            .barra-mensaje {
+                width: 90%; /* Ancho del 90% en dispositivos pequeños */
+                max-width: 100%; /* Ancho máximo */
+                padding: 10px; /* Espacio interno */
+                font-size: 14px; /* Tamaño de fuente más pequeño */
+            }
+
+            .archivo .archivo-boton {
+                width: 45%; /* Ancho de los botones */
+                margin: 10px 2.5%; /* Espaciado y centrado */
+                padding: 10px 10px;
+                font-size: 14px;
             }
         }
 
@@ -166,24 +194,27 @@
                 </div>
             </div>
         </div>
-        <h1 class="titulo">Instalar PC</h1>
+        <h1 class="titulo">INSTALAR PC</h1>
+        <div class="header-buttons">
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
+        </div>
     </header>
 
-    <div class="container">
-        <div class="column">
-            <a href="enlace-1.html" class="boton">BOTON 1</a>
-            <a href="enlace-2.html" class="boton">BOTON 2</a>
-            <a href="enlace-3.html" class="boton">BOTON 3</a>
-            <a href="enlace-4.html" class="boton">BOTON 4</a>
-            <a href="enlace-5.html" class="boton">BOTON 5</a>
-        </div>
-        <div class="column">
-            <a href="enlace-6.html" class="boton">BOTON 6</a>
-            <a href="enlace-7.html" class="boton">BOTON 7</a>
-            <a href="enlace-8.html" class="boton">BOTON 8</a>
-            <a href="enlace-9.html" class="boton">BOTON 9</a>
-            <a href="enlace-10.html" class="boton">BOTON 10</a>
-        </div>
+    <div class="barra-mensaje">
+        <p>LISTAS PERSONALES IPTV - INSTALAR PC</p>
+    </div>
+
+    <div class="archivo">
+        <a href="#" class="archivo-boton deportes">Botón 1</a>
+        <a href="#" class="archivo-boton peliculas">Botón 2</a>
+        <a href="#" class="archivo-boton noticias">Botón 3</a>
+        <a href="#" class="archivo-boton documentales">Botón 4</a>
+        <a href="#" class="archivo-boton espana">Botón 5</a>
+        <a href="#" class="archivo-boton deportes">Botón 6</a>
+        <a href="#" class="archivo-boton peliculas">Botón 7</a>
+        <a href="#" class="archivo-boton noticias">Botón 8</a>
+        <a href="#" class="archivo-boton documentales">Botón 9</a>
+        <a href="#" class="archivo-boton espana">Botón 10</a>
     </div>
 
     <footer>

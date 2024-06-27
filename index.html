@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas IPTV PERSONALES</title>
+    <title>INSTALAR PC</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -23,12 +23,13 @@
             margin: 0 auto; /* Centra la cabecera */
             border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+            display: flex; /* Utilizamos flexbox para alinear elementos */
+            justify-content: space-between; /* Espacio entre los elementos */
+            align-items: center; /* Alineación vertical centrada */
         }
 
         .menu-container {
-            position: absolute; /* Posición absoluta para situar el menú correctamente */
-            top: 10px; /* Alineado con el contenido del header */
-            left: 10px; /* Espaciado desde el borde izquierdo */
+            flex: 1;
         }
 
         .menu-button {
@@ -39,6 +40,10 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+        }
+
+        .menu-button:hover {
+            background-color: #cc0000; /* Cambio de color al pasar el ratón */
         }
 
         .dropdown-content {
@@ -69,8 +74,8 @@
         .header-buttons {
             display: flex;
             justify-content: flex-end; /* Alinea el botón a la derecha */
+            align-items: center; /* Alinea verticalmente */
             padding: 0 20px; /* Espacio a los lados para los botones */
-            margin-top: 10px; /* Espacio entre el título y los botones */
         }
 
         .header-buttons a {
@@ -83,24 +88,28 @@
             border-radius: 5px; /* Bordes redondeados */
             text-decoration: none; /* Sin subrayado */
             text-align: center; /* Centra el texto en los botones */
+            margin-left: 10px; /* Espacio entre botones */
         }
 
         .titulo {
             font-size: 36px; /* Tamaño de fuente grande para el título */
-            margin: 20px 0; /* Espacio alrededor del título */
+            margin: 0;
+            flex: 2; /* Ocupa el espacio restante */
+            text-align: center; /* Centra el texto */
         }
 
         .archivo {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center; /* Centrar el texto */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         .archivo .archivo-boton {
-            display: block;
-            width: 200px; /* Ancho de los botones */
-            margin: 10px auto; /* Espaciado y centrado */
+            width: 45%; /* Ancho de los botones */
+            margin: 10px 0; /* Espaciado vertical */
             padding: 10px 20px;
             font-size: 16px;
             border: none;
@@ -153,6 +162,18 @@
                 padding: 10px; /* Espacio interno */
                 font-size: 14px; /* Tamaño de fuente más pequeño */
             }
+
+            .archivo {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .archivo .archivo-boton {
+                width: 90%; /* Ancho de los botones */
+                margin: 10px 0; /* Espaciado vertical */
+                padding: 10px 10px;
+                font-size: 14px;
+            }
         }
 
         footer {
@@ -166,7 +187,6 @@
             border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
         }
-
     </style>
 </head>
 <body>
@@ -175,26 +195,34 @@
             <div class="dropdown">
                 <button class="menu-button">MENÚ</button>
                 <div class="dropdown-content">
-                    <a href="index.html">Inicio</a>
-                    <a href="informatica.html">Informática</a>
+                    <a href="index.html">LISTAS IPTV</a>
+                    <a href="informatica.html">INFORMÁTICA</a>
                 </div>
             </div>
         </div>
-        <h1 class="titulo">LISTAS IPTV</h1>
+        <h1 class="titulo">INSTALAR PC</h1>
         <div class="header-buttons">
-            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank">CUENTOS</a>
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
         </div>
     </header>
+
     <div class="barra-mensaje">
-        <p>LISTAS PERSONALES IPTV</p>
+        <p>LISTAS PERSONALES IPTV - INSTALAR PC</p>
     </div>
+
     <div class="archivo">
-        <a href="DEPORTES.m3u" class="archivo-boton deportes" download>DEPORTES</a>
-        <a href="PELICULAS.m3u" class="archivo-boton peliculas" download>PELÍCULAS</a>
-        <a href="NOTICIAS.m3u" class="archivo-boton noticias" download>NOTICIAS</a>
-        <a href="DOCUMENTALES.m3u" class="archivo-boton documentales" download>DOCUMENTALES</a>
-        <a href="ESPAÑA.m3u" class="archivo-boton espana" download>ESPAÑA</a>
+        <a href="enlace1.html" target="_blank" class="archivo-boton deportes">Botón 1</a>
+        <a href="enlace2.html" target="_blank" class="archivo-boton peliculas">Botón 2</a>
+        <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 3</a>
+        <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a>
+        <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a>
+        <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
+        <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a>
+        <a href="enlace8.html" target="_blank" class="archivo-boton noticias">Botón 8</a>
+        <a href="enlace9.html" target="_blank" class="archivo-boton documentales">Botón 9</a>
+        <a href="enlace10.html" target="_blank" class="archivo-boton espana">Botón 10</a>
     </div>
+
     <footer>
         <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
     </footer>
