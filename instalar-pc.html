@@ -108,7 +108,7 @@
         }
 
         .archivo .archivo-boton {
-            width: 45%; /* Ancho de los botones */
+            width: 100%; /* Ancho de los botones */
             margin: 10px 0; /* Espaciado vertical */
             padding: 10px 20px;
             font-size: 16px;
@@ -117,6 +117,16 @@
             cursor: pointer;
             text-decoration: none;
             text-align: center;
+        }
+
+        .archivo .columna {
+            width: 45%;
+        }
+
+        @media (max-width: 600px) {
+            .archivo .columna {
+                width: 90%;
+            }
         }
 
         .archivo .deportes {
@@ -216,12 +226,15 @@
         <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 3</a>
         <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a>
         <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a>
-        <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
+        </div>
+        <div class="columna">
+            <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
         <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a>
         <a href="enlace8.html" target="_blank" class="archivo-boton noticias">Botón 8</a>
         <a href="enlace9.html" target="_blank" class="archivo-boton documentales">Botón 9</a>
         <a href="enlace10.html" target="_blank" class="archivo-boton espana">Botón 10</a>
-    </div>
+        </div>
+ </div>
 
     <footer>
         <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
