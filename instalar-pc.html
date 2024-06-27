@@ -85,21 +85,14 @@
             margin: 20px auto;
             padding: 20px;
             text-align: center;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .column {
-            flex: 0 0 45%; /* 45% de ancho, pero no se flexiona */
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Alineación de elementos centrada */
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Columnas responsivas con tamaño mínimo */
+            gap: 20px; /* Espacio entre columnas */
         }
 
         .boton {
             display: block;
             width: 100%;
-            margin-bottom: 10px;
             padding: 15px 20px;
             font-size: 16px;
             text-decoration: none;
@@ -126,12 +119,7 @@
 
         @media (max-width: 600px) {
             .container {
-                flex-direction: column; /* Columnas apiladas en dispositivos pequeños */
-            }
-
-            .column {
-                flex: 1; /* Ocupar todo el ancho disponible en dispositivos móviles */
-                margin-bottom: 20px; /* Espacio entre columnas */
+                grid-template-columns: 1fr; /* Una columna completa en dispositivos móviles */
             }
         }
 
@@ -163,20 +151,16 @@
     </header>
 
     <div class="container">
-        <div class="column">
-            <a href="enlace-1.html" class="boton">BOTON 1</a>
-            <a href="enlace-3.html" class="boton">BOTON 3</a>
-            <a href="enlace-5.html" class="boton">BOTON 5</a>
-            <a href="enlace-7.html" class="boton">BOTON 7</a>
-            <a href="enlace-9.html" class="boton">BOTON 9</a>
-        </div>
-        <div class="column">
-            <a href="enlace-2.html" class="boton">BOTON 2</a>
-            <a href="enlace-4.html" class="boton">BOTON 4</a>
-            <a href="enlace-6.html" class="boton">BOTON 6</a>
-            <a href="enlace-8.html" class="boton">BOTON 8</a>
-            <a href="enlace-10.html" class="boton">BOTON 10</a>
-        </div>
+        <a href="enlace-1.html" class="boton">BOTON 1</a>
+        <a href="enlace-2.html" class="boton">BOTON 2</a>
+        <a href="enlace-3.html" class="boton">BOTON 3</a>
+        <a href="enlace-4.html" class="boton">BOTON 4</a>
+        <a href="enlace-5.html" class="boton">BOTON 5</a>
+        <a href="enlace-6.html" class="boton">BOTON 6</a>
+        <a href="enlace-7.html" class="boton">BOTON 7</a>
+        <a href="enlace-8.html" class="boton">BOTON 8</a>
+        <a href="enlace-9.html" class="boton">BOTON 9</a>
+        <a href="enlace-10.html" class="boton">BOTON 10</a>
     </div>
 
     <footer>
