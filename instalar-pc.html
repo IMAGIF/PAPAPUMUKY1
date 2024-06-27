@@ -169,7 +169,7 @@
             }
 
             .archivo .archivo-boton {
-                width: 90%; /* Ancho de los botones */
+                width: 50%; /* Ancho de los botones */
                 margin: 10px 0; /* Espaciado vertical */
                 padding: 10px 10px;
                 font-size: 14px;
@@ -211,6 +211,7 @@
     </div>
 
     <div class="archivo">
+        <div id="columnas">
         <a href="enlace1.html" target="_blank" class="archivo-boton deportes">Botón 1</a>
         <a href="enlace2.html" target="_blank" class="archivo-boton peliculas">Botón 2</a>
         <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 3</a>
@@ -222,7 +223,11 @@
         <a href="enlace9.html" target="_blank" class="archivo-boton documentales">Botón 9</a>
         <a href="enlace10.html" target="_blank" class="archivo-boton espana">Botón 10</a>
     </div>
-
+    #columnas{
+        column-count:2;
+        column-gap:20px;
+        column-rule:4px dotted blue;
+     }
     <footer>
         <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
     </footer>
