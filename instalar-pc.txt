@@ -102,13 +102,14 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center; /* Centrar el texto */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         .archivo .archivo-boton {
-            display: inline-block;
             width: 45%; /* Ancho de los botones */
-            margin: 10px 2.5%; /* Espaciado y centrado */
+            margin: 10px 0; /* Espaciado vertical */
             padding: 10px 20px;
             font-size: 16px;
             border: none;
@@ -162,9 +163,14 @@
                 font-size: 14px; /* Tamaño de fuente más pequeño */
             }
 
+            .archivo {
+                flex-direction: column;
+                align-items: center;
+            }
+
             .archivo .archivo-boton {
-                width: 45%; /* Ancho de los botones */
-                margin: 10px 2.5%; /* Espaciado y centrado */
+                width: 90%; /* Ancho de los botones */
+                margin: 10px 0; /* Espaciado vertical */
                 padding: 10px 10px;
                 font-size: 14px;
             }
@@ -205,16 +211,16 @@
     </div>
 
     <div class="archivo">
-        <a href="#" class="archivo-boton deportes">Botón 1</a>
-        <a href="#" class="archivo-boton peliculas">Botón 2</a>
-        <a href="#" class="archivo-boton noticias">Botón 3</a>
-        <a href="#" class="archivo-boton documentales">Botón 4</a>
-        <a href="#" class="archivo-boton espana">Botón 5</a>
-        <a href="#" class="archivo-boton deportes">Botón 6</a>
-        <a href="#" class="archivo-boton peliculas">Botón 7</a>
-        <a href="#" class="archivo-boton noticias">Botón 8</a>
-        <a href="#" class="archivo-boton documentales">Botón 9</a>
-        <a href="#" class="archivo-boton espana">Botón 10</a>
+        <a href="enlace1.html" target="_blank" class="archivo-boton deportes">Botón 1</a>
+        <a href="enlace2.html" target="_blank" class="archivo-boton peliculas">Botón 2</a>
+        <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 3</a>
+        <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a>
+        <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a>
+        <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
+        <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a>
+        <a href="enlace8.html" target="_blank" class="archivo-boton noticias">Botón 8</a>
+        <a href="enlace9.html" target="_blank" class="archivo-boton documentales">Botón 9</a>
+        <a href="enlace10.html" target="_blank" class="archivo-boton espana">Botón 10</a>
     </div>
 
     <footer>
