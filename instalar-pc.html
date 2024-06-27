@@ -108,8 +108,8 @@
         }
 
         .archivo .archivo-boton {
-            width: 45%; /* Ancho de los botones */
-            margin: 10px 2%; /* Espaciado horizontal y vertical */
+            width: calc(50% - 20px); /* Ancho de los botones ajustado para dos columnas */
+            margin: 10px 0; /* Espaciado vertical */
             padding: 10px 20px;
             font-size: 16px;
             border: none;
@@ -189,13 +189,13 @@
             }
 
             .archivo {
-                flex-direction: column;
-                align-items: center;
+                flex-direction: row; /* Asegura que los botones se alineen en fila */
+                justify-content: center; /* Centra los botones */
             }
 
             .archivo .archivo-boton {
-                width: 45%; /* Ancho del 45% para mantener dos columnas */
-                margin: 10px 2%; /* Espaciado horizontal y vertical */
+                width: calc(50% - 20px); /* Ancho ajustado para dos columnas */
+                margin: 10px 5px; /* Espaciado vertical y horizontal */
                 padding: 10px 10px;
                 font-size: 14px;
             }
