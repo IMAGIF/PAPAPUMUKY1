@@ -103,12 +103,19 @@
             margin: 0 auto;
             padding: 20px;
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .archivo .columna {
+            width: 45%; /* Ancho de cada columna */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .archivo .archivo-boton {
-            width: 45%; /* Ancho de los botones */
+            width: 100%; /* Ancho del botón */
             margin: 10px 0; /* Espaciado vertical */
             padding: 10px 20px;
             font-size: 16px;
@@ -117,6 +124,10 @@
             cursor: pointer;
             text-decoration: none;
             text-align: center;
+        }
+
+        .archivo .archivo-boton:not(:last-child) {
+            margin-bottom: 10px; /* Espaciado inferior entre botones */
         }
 
         .archivo .deportes {
@@ -163,16 +174,15 @@
                 font-size: 14px; /* Tamaño de fuente más pequeño */
             }
 
-            .archivo {
-                flex-direction: column;
-                align-items: center;
+            .archivo .columna {
+                width: 100%; /* Ancho completo en dispositivos pequeños */
             }
 
             .archivo .archivo-boton {
-                width: 40px; /* Ancho de los botones */
-                margin: 10px 15; /* Espaciado vertical */
-                padding: 20px 10px;
-                font-size: 18px;
+                width: 100%; /* Ancho completo en dispositivos pequeños */
+                margin: 10px 0; /* Espaciado vertical */
+                padding: 10px 20px;
+                font-size: 14px; /* Tamaño de fuente más pequeño */
             }
         }
 
@@ -212,23 +222,23 @@
 
     <div class="archivo">
         <div class="columna">
-                <a href="enlace1.html" target="_blank" class="archivo-boton deportes">Botón 1</a><p>
-                <a href="enlace2.html" target="_blank" class="archivo-boton peliculas">Botón 2</a><p>
-                <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 3</a><p>
-                <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a><p>
-                <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a></p>
-            </div>
-            <div class="columna">
-               <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a><p>
-               <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a><p>
-               <a href="enlace8.html" target="_blank" class="archivo-boton noticias">Botón 8</a><p>
-               <a href="enlace9.html" target="_blank" class="archivo-boton documentales">Botón 9</a><p>
-               <a href="enlace10.html" target="_blank" class="archivo-boton espana">Botón 10</a><p>
-            </div>
-
-        
+            <a href="enlace1.html" target="_blank" class="archivo-boton deportes">Botón 1</a>
+            <a href="enlace2.html" target="_blank" class="archivo-boton peliculas">Botón 2</a>
+            <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 
+3</a>
+            <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a>
+            <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a>
         </div>
-        <footer>
+        <div class="columna">
+            <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
+            <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a>
+            <a href="enlace8.html" target="_blank" class="archivo-boton noticias">Botón 8</a>
+            <a href="enlace9.html" target="_blank" class="archivo-boton documentales">Botón 9</a>
+            <a href="enlace10.html" target="_blank" class="archivo-boton espana">Botón 10</a>
+        </div>
+    </div>
+
+    <footer>
         <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
     </footer>
 </body>
