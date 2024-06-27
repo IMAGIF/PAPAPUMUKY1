@@ -92,7 +92,7 @@
         }
 
         .titulo {
-            font-size: 36px; /* Tamaño de fuente grande para el título */
+            font-size: 24px; /* Tamaño de fuente reducido para dispositivos móviles */
             margin: 0;
             flex: 2; /* Ocupa el espacio restante */
             text-align: center; /* Centra el texto */
@@ -110,7 +110,7 @@
         .archivo .archivo-boton {
             width: 100%;
             padding: 10px 0;
-            font-size: 16px;
+            font-size: 14px; /* Tamaño de fuente reducido para dispositivos móviles */
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -155,19 +155,33 @@
         }
 
         @media (max-width: 600px) {
-            .barra-mensaje {
-                width: 90%; /* Ancho del 90% en dispositivos pequeños */
-                max-width: 100%; /* Ancho máximo */
-                padding: 10px; /* Espacio interno */
-                font-size: 14px; /* Tamaño de fuente más pequeño */
+            header {
+                flex-direction: column; /* Alinea los elementos en una columna */
+            }
+
+            .titulo {
+                font-size: 18px; /* Reducir tamaño del título para dispositivos móviles */
+                text-align: center; /* Centra el texto */
+                margin-bottom: 10px; /* Espacio inferior */
+            }
+
+            .header-buttons {
+                justify-content: center; /* Centra los botones */
+                margin-top: 10px; /* Espacio superior */
+            }
+
+            .header-buttons a {
+                font-size: 14px; /* Tamaño de fuente ajustado para dispositivos móviles */
+                padding: 8px 16px; /* Espaciado reducido */
+                margin-left: 0; /* Sin margen izquierdo */
             }
 
             .archivo {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr; /* Una sola columna */
             }
 
             .archivo .archivo-boton {
-                font-size: 14px;
+                font-size: 12px; /* Tamaño de fuente reducido */
             }
         }
 
@@ -197,7 +211,7 @@
         </div>
         <h1 class="titulo">INSTALAR PC</h1>
         <div class="header-buttons">
-            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="header-button">CUENTOS</a>
         </div>
     </header>
 
