@@ -74,30 +74,10 @@
             display: block; /* Mostrar el contenido al pasar el ratón */
         }
 
-        .header-buttons {
-            display: flex;
-            justify-content: flex-end; /* Alinea el botón a la derecha */
-            align-items: center; /* Alinea verticalmente */
-            padding: 0 20px; /* Espacio a los lados para los botones */
-            margin-top: 10px; /* Espacio entre el título y los botones */
-        }
-
-        .header-buttons a {
-            background-color: #000; /* Fondo negro */
-            color: #fff; /* Texto blanco */
-            padding: 10px 20px;
-            font-size: 12px; /* Tamaño de fuente */
-            border: none; /* Sin borde */
-            cursor: pointer; /* Cursor de puntero al pasar por encima */
-            border-radius: 5px; /* Bordes redondeados */
-            text-decoration: none; /* Sin subrayado */
-            text-align: center; /* Centra el texto en los botones */
-            margin-left: 10px; /* Espacio entre botones */
-        }
-
         .titulo {
             font-size: 36px; /* Tamaño de fuente grande para el título */
             margin: 20px 0; /* Espacio alrededor del título */
+            text-align: center; /* Alineación central para el título */
         }
 
         .container {
@@ -121,8 +101,6 @@
             width: 100%;
             margin-bottom: 10px;
             padding: 15px 20px;
-            background-color: #1e2851; /* Fondo azul oscuro */
-            color: #fff; /* Texto blanco */
             font-size: 16px;
             text-decoration: none;
             border: none;
@@ -131,11 +109,26 @@
             transition: background-color 0.3s ease; /* Transición suave del color de fondo */
         }
 
+        /* Colores diferentes para botones */
+        .boton:nth-child(odd) {
+            background-color: #1e2851; /* Fondo azul oscuro */
+            color: #fff; /* Texto blanco */
+        }
+
+        .boton:nth-child(even) {
+            background-color: #ff6347; /* Fondo rojo tomate */
+            color: #fff; /* Texto blanco */
+        }
+
         .boton:hover {
             background-color: #233b67; /* Color de fondo más oscuro al pasar el ratón */
         }
 
         @media (max-width: 600px) {
+            .container {
+                flex-direction: column; /* Columnas apiladas en dispositivos pequeños */
+            }
+
             .column {
                 flex: 0 0 100%; /* Columnas ocupan el ancho completo en dispositivos pequeños */
                 margin-bottom: 20px; /* Espacio entre columnas */
@@ -172,16 +165,16 @@
     <div class="container">
         <div class="column">
             <a href="enlace-1.html" class="boton">BOTON 1</a>
-            <a href="enlace-2.html" class="boton">BOTON 2</a>
             <a href="enlace-3.html" class="boton">BOTON 3</a>
-            <a href="enlace-4.html" class="boton">BOTON 4</a>
             <a href="enlace-5.html" class="boton">BOTON 5</a>
+            <a href="enlace-7.html" class="boton">BOTON 7</a>
+            <a href="enlace-9.html" class="boton">BOTON 9</a>
         </div>
         <div class="column">
+            <a href="enlace-2.html" class="boton">BOTON 2</a>
+            <a href="enlace-4.html" class="boton">BOTON 4</a>
             <a href="enlace-6.html" class="boton">BOTON 6</a>
-            <a href="enlace-7.html" class="boton">BOTON 7</a>
             <a href="enlace-8.html" class="boton">BOTON 8</a>
-            <a href="enlace-9.html" class="boton">BOTON 9</a>
             <a href="enlace-10.html" class="boton">BOTON 10</a>
         </div>
     </div>
