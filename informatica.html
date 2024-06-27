@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informática - Listas IPTV PERSONALES</title>
+    <title>INFORMÁTICA - Listas IPTV PERSONALES</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -23,12 +23,9 @@
             margin: 0 auto; /* Centra la cabecera */
             border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
-        }
-
-        .menu-container {
-            position: absolute; /* Posición absoluta para situar el menú correctamente */
-            top: 10px; /* Alineado con el contenido del header */
-            left: 10px; /* Espaciado desde el borde izquierdo */
+            display: flex; /* Utilizamos flexbox para alinear elementos */
+            justify-content: space-between; /* Espacio entre los elementos */
+            align-items: center; /* Alineación vertical centrada */
         }
 
         .menu-button {
@@ -39,6 +36,11 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            margin-left: 20px; /* Espacio a la izquierda para separar del borde */
+        }
+
+        .menu-button:hover {
+            background-color: #cc0000; /* Cambio de color al pasar el ratón */
         }
 
         .dropdown-content {
@@ -69,6 +71,7 @@
         .header-buttons {
             display: flex;
             justify-content: flex-end; /* Alinea el botón a la derecha */
+            align-items: center; /* Alinea verticalmente */
             padding: 0 20px; /* Espacio a los lados para los botones */
             margin-top: 10px; /* Espacio entre el título y los botones */
         }
@@ -83,6 +86,7 @@
             border-radius: 5px; /* Bordes redondeados */
             text-decoration: none; /* Sin subrayado */
             text-align: center; /* Centra el texto en los botones */
+            margin-left: 10px; /* Espacio entre botones */
         }
 
         .titulo {
@@ -166,7 +170,6 @@
             border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
         }
-
     </style>
 </head>
 <body>
@@ -175,26 +178,29 @@
             <div class="dropdown">
                 <button class="menu-button">MENÚ</button>
                 <div class="dropdown-content">
-                    <a href="index.html">Inicio</a>
-                    <a href="informatica.html">Informática</a>
+                    <a href="index.html">LISTAS IPTV</a>
+                    <a href="informatica.html">INFORMÁTICA</a>
                 </div>
             </div>
         </div>
         <h1 class="titulo">INFORMÁTICA</h1>
         <div class="header-buttons">
-            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank">CUENTOS</a>
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
         </div>
     </header>
+
     <div class="barra-mensaje">
         <p>LISTAS PERSONALES IPTV - INFORMÁTICA</p>
     </div>
+
     <div class="archivo">
-        <a href="DEPORTES.m3u" class="archivo-boton deportes" download>DEPORTES</a>
-        <a href="PELICULAS.m3u" class="archivo-boton peliculas" download>PELÍCULAS</a>
-        <a href="NOTICIAS.m3u" class="archivo-boton noticias" download>NOTICIAS</a>
-        <a href="DOCUMENTALES.m3u" class="archivo-boton documentales" download>DOCUMENTALES</a>
-        <a href="ESPAÑA.m3u" class="archivo-boton espana" download>ESPAÑA</a>
+        <a href="instalar-pc.html" class="archivo-boton deportes">INSTALAR PC</a>
+        <a href="herramientas-ia.html" class="archivo-boton peliculas">CONTENIDO IA</a>
+        <a href="mis-webs.html" class="archivo-boton noticias">MIS WEBS</a>
+        <a href="mis-programas.html" class="archivo-boton documentales">MIS PROGRAMAS</a>
+        <a href="utilidades.html" class="archivo-boton espana">UTILIDADES</a>
     </div>
+
     <footer>
         <p>© 2024 Listas iptv. Todos los derechos reservados.</p>
     </footer>
