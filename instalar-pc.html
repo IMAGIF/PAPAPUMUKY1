@@ -82,7 +82,7 @@
             background-color: #000; /* Fondo negro */
             color: #fff; /* Texto blanco */
             padding: 10px 20px;
-            font-size: 12px; /* Tamaño de fuente */
+            font-size: 16px; /* Tamaño de fuente ajustado */
             border: none; /* Sin borde */
             cursor: pointer; /* Cursor de puntero al pasar por encima */
             border-radius: 5px; /* Bordes redondeados */
@@ -156,6 +156,19 @@
         }
 
         @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            .titulo {
+                font-size: 18px; /* Reducir tamaño del título */
+            }
+
+            .header-buttons a {
+                font-size: 16px; /* Ajustar tamaño de fuente */
+                padding: 10px 20px; /* Ajustar tamaño de botón */
+            }
+
             .barra-mensaje {
                 width: 90%; /* Ancho del 90% en dispositivos pequeños */
                 max-width: 100%; /* Ancho máximo */
@@ -166,14 +179,14 @@
             .archivo {
                 flex-direction: row;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: space-between;
             }
 
             .archivo .archivo-boton {
-                width: 45%; /* Ancho reducido de los botones */
+                width: 45%; /* Ancho adecuado para dos columnas */
                 margin: 10px 0; /* Espaciado vertical */
                 padding: 10px 10px;
-                font-size: 14px;
+                font-size: 14px; /* Ajustar tamaño de fuente */
             }
         }
 
@@ -203,7 +216,7 @@
         </div>
         <h1 class="titulo">INSTALAR PC</h1>
         <div class="header-buttons">
-            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="menu-button">CUENTOS</a>
         </div>
     </header>
 
