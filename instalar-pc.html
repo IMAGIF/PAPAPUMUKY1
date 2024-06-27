@@ -103,31 +103,25 @@
             margin: 0 auto;
             padding: 20px;
             display: flex;
-            justify-content: space-between;
             flex-wrap: wrap;
+            justify-content: space-between;
         }
 
-        .archivo .columna {
-            width: 45%; /* Ancho de cada columna */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .columna {
+            width: 45%; /* Ancho de cada columna en modo escritorio */
+            margin-bottom: 20px; /* Espacio entre columnas */
         }
 
-        .archivo .archivo-boton {
-            width: 100%; /* Ancho del botón */
-            margin: 10px 0; /* Espaciado vertical */
-            padding: 10px 20px;
-            font-size: 16px;
+        .archivo-boton {
+            width: 100%; /* Ancho completo de los botones dentro de las columnas */
+            margin-bottom: 10px; /* Espacio entre botones */
+            padding: 12px 20px; /* Padding interno de los botones */
+            font-size: 16px; /* Tamaño de fuente */
             border: none;
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
             text-align: center;
-        }
-
-        .archivo .archivo-boton:not(:last-child) {
-            margin-bottom: 10px; /* Espaciado inferior entre botones */
         }
 
         .archivo .deportes {
@@ -167,21 +161,15 @@
         }
 
         @media (max-width: 600px) {
-            .barra-mensaje {
-                width: 90%; /* Ancho del 90% en dispositivos pequeños */
-                max-width: 100%; /* Ancho máximo */
-                padding: 10px; /* Espacio interno */
-                font-size: 14px; /* Tamaño de fuente más pequeño */
-            }
-
             .archivo .columna {
                 width: 100%; /* Ancho completo en dispositivos pequeños */
+                margin-bottom: 20px; /* Espacio entre columnas */
             }
 
-            .archivo .archivo-boton {
-                width: 100%; /* Ancho completo en dispositivos pequeños */
-                margin: 10px 0; /* Espaciado vertical */
-                padding: 10px 20px;
+            .archivo-boton {
+                width: 100%; /* Ancho completo de los botones en dispositivos pequeños */
+                margin-bottom: 10px; /* Espacio entre botones */
+                padding: 12px 10px; /* Padding interno de los botones */
                 font-size: 14px; /* Tamaño de fuente más pequeño */
             }
         }
@@ -224,11 +212,11 @@
         <div class="columna">
             <a href="enlace1.html" target="_blank" class="archivo-boton deportes">Botón 1</a>
             <a href="enlace2.html" target="_blank" class="archivo-boton peliculas">Botón 2</a>
-            <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 
-3</a>
+            <a href="enlace3.html" target="_blank" class="archivo-boton noticias">Botón 3</a>
             <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a>
             <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a>
         </div>
+        <div class="
         <div class="columna">
             <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
             <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a>
