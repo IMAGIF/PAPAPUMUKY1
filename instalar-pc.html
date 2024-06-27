@@ -81,7 +81,7 @@
         .header-buttons a {
             background-color: #000; /* Fondo negro */
             color: #fff; /* Texto blanco */
-            padding: 10px 20px;
+            padding: 8px 16px; /* Ajuste de padding para mejor apariencia */
             font-size: 12px; /* Tamaño de fuente */
             border: none; /* Sin borde */
             cursor: pointer; /* Cursor de puntero al pasar por encima */
@@ -108,15 +108,14 @@
         }
 
         .columna {
-            width: 45%; /* Ancho de cada columna en modo escritorio */
-            margin-bottom: 20px; /* Espacio entre columnas */
+            width: 45%; /* Ancho de la columna */
         }
 
         .archivo-boton {
-            width: 100%; /* Ancho completo de los botones dentro de las columnas */
+            width: 100%; /* Ancho completo del botón */
             margin-bottom: 10px; /* Espacio entre botones */
-            padding: 12px 20px; /* Padding interno de los botones */
-            font-size: 16px; /* Tamaño de fuente */
+            padding: 10px; /* Espaciado interno */
+            font-size: 14px; /* Tamaño de fuente */
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -161,16 +160,27 @@
         }
 
         @media (max-width: 600px) {
-            .archivo .columna {
+            .barra-mensaje {
+                width: 90%; /* Ancho del 90% en dispositivos pequeños */
+                max-width: 100%; /* Ancho máximo */
+                padding: 10px; /* Espacio interno */
+                font-size: 14px; /* Tamaño de fuente más pequeño */
+            }
+
+            .archivo {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .columna {
                 width: 100%; /* Ancho completo en dispositivos pequeños */
-                margin-bottom: 20px; /* Espacio entre columnas */
             }
 
             .archivo-boton {
-                width: 100%; /* Ancho completo de los botones en dispositivos pequeños */
+                width: 100%; /* Ancho completo del botón */
                 margin-bottom: 10px; /* Espacio entre botones */
-                padding: 12px 10px; /* Padding interno de los botones */
-                font-size: 14px; /* Tamaño de fuente más pequeño */
+                padding: 10px; /* Espaciado interno */
+                font-size: 14px; /* Tamaño de fuente */
             }
         }
 
@@ -216,7 +226,7 @@
             <a href="enlace4.html" target="_blank" class="archivo-boton documentales">Botón 4</a>
             <a href="enlace5.html" target="_blank" class="archivo-boton espana">Botón 5</a>
         </div>
-                <div class="columna">
+        <div class="columna">
             <a href="enlace6.html" target="_blank" class="archivo-boton deportes">Botón 6</a>
             <a href="enlace7.html" target="_blank" class="archivo-boton peliculas">Botón 7</a>
             <a href="enlace8.html" target="_blank" class="archivo-boton noticias">Botón 8</a>
@@ -230,4 +240,3 @@
     </footer>
 </body>
 </html>
-
