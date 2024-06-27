@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INSTALAR PC</title>
+    <title>Instalar PC</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -28,10 +28,6 @@
             align-items: center; /* Alineación vertical centrada */
         }
 
-        .menu-container {
-            flex: 1;
-        }
-
         .menu-button {
             background-color: #ff0000; /* Fondo rojo */
             color: #fff; /* Texto blanco */
@@ -40,6 +36,7 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            margin-left: 20px; /* Espacio a la izquierda para separar del borde */
         }
 
         .menu-button:hover {
@@ -76,6 +73,7 @@
             justify-content: flex-end; /* Alinea el botón a la derecha */
             align-items: center; /* Alinea verticalmente */
             padding: 0 20px; /* Espacio a los lados para los botones */
+            margin-top: 10px; /* Espacio entre el título y los botones */
         }
 
         .header-buttons a {
@@ -93,22 +91,21 @@
 
         .titulo {
             font-size: 36px; /* Tamaño de fuente grande para el título */
-            margin: 0;
-            flex: 2; /* Ocupa el espacio restante */
-            text-align: center; /* Centra el texto */
+            margin: 20px 0; /* Espacio alrededor del título */
         }
 
         .archivo {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center; /* Centrar el texto */
+            display: flex; /* Utilizamos flexbox para alinear elementos */
+            flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+            justify-content: space-between; /* Espacio entre las columnas */
         }
 
         .archivo .archivo-boton {
-            display: inline-block;
-            width: 45%; /* Ancho de los botones */
-            margin: 10px 2.5%; /* Espaciado y centrado */
+            width: calc(50% - 10px); /* Ancho del 50% menos espacio entre columnas */
+            margin: 10px 0; /* Margen vertical entre los botones */
             padding: 10px 20px;
             font-size: 16px;
             border: none;
@@ -143,6 +140,31 @@
             color: #fff; /* Texto blanco */
         }
 
+        .archivo .boton6 {
+            background-color: #8a2be2; /* Fondo púrpura */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .boton7 {
+            background-color: #ff4500; /* Fondo naranja oscuro */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .boton8 {
+            background-color: #daa520; /* Fondo dorado */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .boton9 {
+            background-color: #00ced1; /* Fondo turquesa oscuro */
+            color: #fff; /* Texto blanco */
+        }
+
+        .archivo .boton10 {
+            background-color: #ff69b4; /* Fondo rosa */
+            color: #fff; /* Texto blanco */
+        }
+
         .barra-mensaje {
             background-color: #000; /* Fondo negro */
             color: #fff; /* Texto blanco */
@@ -162,11 +184,14 @@
                 font-size: 14px; /* Tamaño de fuente más pequeño */
             }
 
+            .archivo {
+                flex-direction: column; /* Coloca los botones en una columna */
+                align-items: center; /* Centra los botones */
+            }
+
             .archivo .archivo-boton {
-                width: 45%; /* Ancho de los botones */
-                margin: 10px 2.5%; /* Espaciado y centrado */
-                padding: 10px 10px;
-                font-size: 14px;
+                width: 90%; /* Ancho del 90% en dispositivos pequeños */
+                font-size: 14px; /* Tamaño de fuente más pequeño */
             }
         }
 
@@ -194,27 +219,27 @@
                 </div>
             </div>
         </div>
-        <h1 class="titulo">INSTALAR PC</h1>
+        <h1 class="titulo">Instalar PC</h1>
         <div class="header-buttons">
             <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
         </div>
     </header>
 
     <div class="barra-mensaje">
-        <p>LISTAS PERSONALES IPTV - INSTALAR PC</p>
+        <p>Instalación de Software y Configuración de PCs</p>
     </div>
 
     <div class="archivo">
-        <a href="#" class="archivo-boton deportes">Botón 1</a>
-        <a href="#" class="archivo-boton peliculas">Botón 2</a>
-        <a href="#" class="archivo-boton noticias">Botón 3</a>
-        <a href="#" class="archivo-boton documentales">Botón 4</a>
-        <a href="#" class="archivo-boton espana">Botón 5</a>
-        <a href="#" class="archivo-boton deportes">Botón 6</a>
-        <a href="#" class="archivo-boton peliculas">Botón 7</a>
-        <a href="#" class="archivo-boton noticias">Botón 8</a>
-        <a href="#" class="archivo-boton documentales">Botón 9</a>
-        <a href="#" class="archivo-boton espana">Botón 10</a>
+        <a href="enlace1.html" class="archivo-boton deportes" target="_blank">Botón 1</a>
+        <a href="enlace2.html" class="archivo-boton peliculas" target="_blank">Botón 2</a>
+        <a href="enlace3.html" class="archivo-boton noticias" target="_blank">Botón 3</a>
+        <a href="enlace4.html" class="archivo-boton documentales" target="_blank">Botón 4</a>
+        <a href="enlace5.html" class="archivo-boton espana" target="_blank">Botón 5</a>
+        <a href="enlace6.html" class="archivo-boton boton6" target="_blank">Botón 6</a>
+        <a href="enlace7.html" class="archivo-boton boton7" target="_blank">Botón 7</a>
+        <a href="enlace8.html" class="archivo-boton boton8" target="_blank">Botón 8</a>
+        <a href="enlace9.html" class="archivo-boton boton9" target="_blank">Botón 9</a>
+        <a href="enlace10.html" class="archivo-boton boton10" target="_blank">Botón 10</a>
     </div>
 
     <footer>
