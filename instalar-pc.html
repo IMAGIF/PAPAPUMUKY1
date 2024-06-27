@@ -28,12 +28,6 @@
             align-items: center; /* Alineación vertical centrada */
         }
 
-        .menu-container {
-            position: absolute; /* Posición absoluta para situar el menú correctamente */
-            top: 10px; /* Alineado con el contenido del header */
-            left: 10px; /* Espaciado desde el borde izquierdo */
-        }
-
         .menu-button {
             background-color: #ff0000; /* Fondo rojo */
             color: #fff; /* Texto blanco */
@@ -86,15 +80,15 @@
             padding: 20px;
             text-align: center;
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Dos columnas igualmente distribuidas */
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Columnas responsivas con tamaño mínimo */
             gap: 20px; /* Espacio entre columnas */
         }
 
         .boton {
             display: block;
-            width: calc(50% - 10px); /* Ancho del 50% del contenedor menos el espacio entre botones */
-            padding: 10px;
-            font-size: 14px; /* Tamaño de fuente reducido para dispositivos móviles */
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 16px;
             text-decoration: none;
             border: none;
             border-radius: 5px;
@@ -118,13 +112,18 @@
         }
 
         @media (max-width: 600px) {
+            .titulo {
+                font-size: 28px; /* Reducir el tamaño de fuente para dispositivos móviles */
+            }
+
             .container {
-                grid-template-columns: 1fr; /* Una columna completa en dispositivos móviles */
+                grid-template-columns: repeat(2, 1fr); /* Dos columnas igualmente distribuidas */
+                gap: 10px; /* Espacio entre columnas */
             }
 
             .boton {
-                width: calc(50% - 10px); /* Ancho del 50% del contenedor menos el espacio entre botones */
-                font-size: 14px; /* Tamaño de fuente reducido para dispositivos móviles */
+                padding: 12px 16px; /* Reducir el padding de los botones */
+                font-size: 14px; /* Reducir el tamaño de fuente para dispositivos móviles */
             }
         }
 
