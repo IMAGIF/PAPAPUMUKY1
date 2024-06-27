@@ -102,14 +102,15 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         .archivo .archivo-boton {
-            width: 100%;
-            padding: 10px 0;
+            width: 40%; /* Ancho reducido de los botones */
+            margin: 10px 0; /* Espaciado vertical */
+            padding: 10px 20px;
             font-size: 16px;
             border: none;
             border-radius: 5px;
@@ -163,10 +164,15 @@
             }
 
             .archivo {
-                grid-template-columns: repeat(2, 1fr);
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
             }
 
             .archivo .archivo-boton {
+                width: 45%; /* Ancho reducido de los botones */
+                margin: 10px 0; /* Espaciado vertical */
+                padding: 10px 10px;
                 font-size: 14px;
             }
         }
