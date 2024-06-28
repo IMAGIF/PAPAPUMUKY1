@@ -29,8 +29,9 @@
         }
 
         .menu-container {
-            display: flex; /* Flexbox para alinear los botones */
-            align-items: center; /* Alinear verticalmente */
+            display: flex;
+            justify-content: flex-start; /* Alinea el menú a la izquierda */
+            align-items: center;
         }
 
         .menu-button {
@@ -70,8 +71,7 @@
 
         .header-buttons {
             display: flex;
-            align-items: center; /* Alinear verticalmente */
-            padding: 0 20px; /* Espacio a los lados para los botones */
+            align-items: center;
         }
 
         .header-buttons a {
@@ -88,8 +88,9 @@
         }
 
         .titulo {
-            font-size: 28px; /* Tamaño de fuente más pequeño para el título */
-            margin: 20px 0; /* Espacio alrededor del título */
+            font-size: 24px; /* Tamaño de fuente más pequeño para el título */
+            margin: 0; /* Espacio alrededor del título */
+            flex-grow: 1; /* Crece para ocupar el espacio restante */
         }
 
         .archivo {
@@ -176,8 +177,8 @@
             <div class="dropdown">
                 <button class="menu-button">MENÚ</button>
                 <div class="dropdown-content">
-                    <a href="index.html">LISTAS IPTV</a>
-                    <a href="informatica.html">INFORMÁTICA</a>
+                    <a href="index.html">Inicio</a>
+                    <a href="informatica.html">Informática</a>
                 </div>
             </div>
         </div>
