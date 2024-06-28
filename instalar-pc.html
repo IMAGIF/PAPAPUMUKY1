@@ -35,7 +35,8 @@
             justify-content: flex-start; /* Alinea el menú a la izquierda en dispositivos pequeños */
         }
 
-        .menu-button {
+        .menu-button,
+        .header-button {
             background-color: #ff0000; /* Fondo rojo */
             color: #fff; /* Texto blanco */
             padding: 10px 20px;
@@ -45,7 +46,8 @@
             font-size: 16px;
         }
 
-        .menu-button:hover {
+        .menu-button:hover,
+        .header-button:hover {
             background-color: #cc0000; /* Cambio de color al pasar el ratón */
         }
 
@@ -84,23 +86,13 @@
 
         .header-buttons {
             display: flex;
-            justify-content: center; /* Centra los botones */
+            justify-content: flex-end; /* Centra los botones */
             align-items: center; /* Alinea verticalmente */
             flex: 1;
         }
 
         .header-buttons a {
-            background-color: #000; /* Fondo negro */
-            color: #fff; /* Texto blanco */
-            padding: 10px 20px;
-            font-size: 12px; /* Tamaño de fuente */
-            border: none; /* Sin borde */
-            cursor: pointer; /* Cursor de puntero al pasar por encima */
-            border-radius: 5px; /* Bordes redondeados */
-            text-decoration: none; /* Sin subrayado */
-            text-align: center; /* Centra el texto en los botones */
-            margin: 5px; /* Espacio entre botones */
-            width: auto; /* Ancho automático para dispositivos pequeños */
+            margin-left: auto;
         }
 
         .archivo {
@@ -109,7 +101,7 @@
             padding: 20px;
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* Dos columnas en dispositivos de escritorio */
-            gap: 10px;
+            gap: 20px; /* Incrementar el espacio entre columnas */
         }
 
         .archivo .archivo-boton {
@@ -154,7 +146,8 @@
             text-align: center;
             padding: 10px 0;
             margin: 20px 0;
-            width: 100%; /* Ancho completo */
+            width: 850px; /* Ancho igual al de la cabecera */
+            margin: 0 auto; /* Centrado horizontal */
             border-radius: 10px; /* Bordes redondeados */
         }
 
@@ -165,7 +158,7 @@
             }
 
             .header-buttons {
-                justify-content: space-around; /* Espaciado uniforme entre los botones */
+                justify-content: center; /* Espaciado uniforme entre los botones */
             }
 
             .header-buttons a {
@@ -176,10 +169,18 @@
 
             .archivo {
                 grid-template-columns: repeat(2, 1fr); /* Dos columnas en dispositivos pequeños */
+                gap: 10px; /* Menor espacio entre columnas */
             }
 
             .archivo .archivo-boton {
                 font-size: 12px; /* Tamaño de fuente reducido */
+            }
+
+            .barra-mensaje {
+                width: 90%; /* Ancho del 90% en dispositivos pequeños */
+                max-width: 100%; /* Ancho máximo */
+                padding: 10px; /* Espacio interno */
+                font-size: 14px; /* Tamaño de fuente más pequeño */
             }
         }
 
