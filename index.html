@@ -23,12 +23,15 @@
             margin: 0 auto; /* Centra la cabecera */
             border-radius: 10px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para darle profundidad */
+            display: flex; /* Utilizamos flexbox para alinear elementos */
+            justify-content: space-between; /* Espacio entre los elementos */
+            align-items: center; /* Alineación vertical centrada */
         }
 
         .menu-container {
-            position: absolute; /* Posición absoluta para situar el menú correctamente */
-            top: 10px; /* Alineado con el contenido del header */
-            left: 10px; /* Espaciado desde el borde izquierdo */
+            display: flex;
+            justify-content: flex-start; /* Alinea el menú a la izquierda */
+            align-items: center;
         }
 
         .menu-button {
@@ -68,26 +71,26 @@
 
         .header-buttons {
             display: flex;
-            justify-content: flex-end; /* Alinea el botón a la derecha */
-            padding: 0 20px; /* Espacio a los lados para los botones */
-            margin-top: 10px; /* Espacio entre el título y los botones */
+            align-items: center;
         }
 
         .header-buttons a {
             background-color: #000; /* Fondo negro */
             color: #fff; /* Texto blanco */
             padding: 10px 20px;
-            font-size: 12px; /* Tamaño de fuente */
+            font-size: 16px; /* Tamaño de fuente */
             border: none; /* Sin borde */
             cursor: pointer; /* Cursor de puntero al pasar por encima */
             border-radius: 5px; /* Bordes redondeados */
             text-decoration: none; /* Sin subrayado */
             text-align: center; /* Centra el texto en los botones */
+            margin-left: 10px; /* Espacio entre botones */
         }
 
         .titulo {
             font-size: 36px; /* Tamaño de fuente grande para el título */
-            margin: 20px 0; /* Espacio alrededor del título */
+            margin: 0; /* Espacio alrededor del título */
+            flex-grow: 1; /* Crece para ocupar el espacio restante */
         }
 
         .archivo {
@@ -182,7 +185,7 @@
         </div>
         <h1 class="titulo">LISTAS IPTV</h1>
         <div class="header-buttons">
-            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank">CUENTOS</a>
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" style="background-color: #000; color: #fff;">CUENTOS</a>
         </div>
     </header>
     <div class="barra-mensaje">
