@@ -28,6 +28,11 @@
             align-items: center; /* Alineación vertical centrada */
         }
 
+        .menu-container {
+            display: flex; /* Flexbox para alinear los botones */
+            align-items: center; /* Alinear verticalmente */
+        }
+
         .menu-button {
             background-color: #ff0000; /* Fondo rojo */
             color: #fff; /* Texto blanco */
@@ -36,11 +41,6 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            margin-left: 20px; /* Espacio a la izquierda para separar del borde */
-        }
-
-        .menu-button:hover {
-            background-color: #cc0000; /* Cambio de color al pasar el ratón */
         }
 
         .dropdown-content {
@@ -70,17 +70,15 @@
 
         .header-buttons {
             display: flex;
-            justify-content: flex-end; /* Alinea el botón a la derecha */
-            align-items: center; /* Alinea verticalmente */
+            align-items: center; /* Alinear verticalmente */
             padding: 0 20px; /* Espacio a los lados para los botones */
-            margin-top: 10px; /* Espacio entre el título y los botones */
         }
 
         .header-buttons a {
             background-color: #000; /* Fondo negro */
             color: #fff; /* Texto blanco */
             padding: 10px 20px;
-            font-size: 12px; /* Tamaño de fuente */
+            font-size: 16px; /* Tamaño de fuente */
             border: none; /* Sin borde */
             cursor: pointer; /* Cursor de puntero al pasar por encima */
             border-radius: 5px; /* Bordes redondeados */
@@ -90,7 +88,7 @@
         }
 
         .titulo {
-            font-size: 36px; /* Tamaño de fuente grande para el título */
+            font-size: 28px; /* Tamaño de fuente más pequeño para el título */
             margin: 20px 0; /* Espacio alrededor del título */
         }
 
@@ -185,7 +183,7 @@
         </div>
         <h1 class="titulo">INFORMÁTICA</h1>
         <div class="header-buttons">
-            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank" class="boton-cuentos">CUENTOS</a>
+            <a href="https://imagif.github.io/Cuentos-Infantiles/" target="_blank">CUENTOS</a>
         </div>
     </header>
 
