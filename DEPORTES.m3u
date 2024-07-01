@@ -27,12 +27,8 @@ https://tv.radiocast.es:5443/vinxtv/streams/vinxtvlive.m3u8
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:0 type="stream" channelId="-1" name="CCTV-5+ 体育赛事" group="China" logo="https://i.imgur.com/UNjmQVS.png", CCTV-5+ 体育赛事
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Sports" logo="https://i.imgur.com/nbmnGwE.png", CCTV-5 (1080p)
-http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
 #EXTINF:0 type="stream" channelId="-1" name="CCTV-5 体育" group="China" logo="https://i.imgur.com/Mut2omN.png", CCTV-5 体育
 https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Music" logo="https://i.imgur.com/ZzV6JQp.png", CCTV-16 (1080p)
-http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Undefined", A21 Network | Russian Motorsport Television
 https://autopilot.catcast.tv/content/37909/index.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Sports" logo="https://i.imgur.com/hWo7Ba4.png", Sony Sports Ten 1 (1080p)
