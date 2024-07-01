@@ -61,14 +61,6 @@ https://directes-tv-cat.ccma.cat/live-origin/esport3-hls/master.m3u8
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6320d2755e54db000783fd87livestitch/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus&profilesFromStream=true
 #EXTINF:0 type="stream" channelId="3089" group="Sports" logo="https://i.imgur.com/ZhkZzLf.png", A Spor (1080p) [Not 24/7]
 https://ythls.armelin.one/channel/UCJElRTCNEmLemgirqvsW63Q.m3u8
-#EXTINF:0 type="stream" channelId="180" group="Undefined", Fox Sports 3
-http://stream.flynetwifi.com:1935/live/mobile-108/playlist.m3u8
-#EXTINF:0 type="stream" channelId="170" group="Undefined", Fox Sports 2
-http://stream.flynetwifi.com:1935/live/mobile-031/playlist.m3u8
-#EXTINF:0 type="stream" channelId="3751" group="United States" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/512px-FOX_Deportes_logo.png", Fox Deportes
-http://stream.flynetwifi.com:1935/live/mobile-104/playlist.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Sports" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/512px-FOX_Sports_logo.svg.png", Fox Sports Mexico
-http://stream.flynetwifi.com:1935/live/mobile-010/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Sports" logo="https://i.imgur.com/vEpjLnj.png", J Sports 1 (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
 #EXTINF:0 type="stream" channelId="-1" group="Sports" logo="https://i.imgur.com/g1GLVH2.png", J Sports 2 (544p)
