@@ -3,8 +3,7 @@
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:0 type="stream" channelId="-1" logo="https://play-lh.googleusercontent.com/cq_1HNMi5V8RqgMhWaya8xD0osTPnKWVI_ESCLF_F5lu7GeSDKyeErdbvvlU3j8tcaY", EL CONFIDENCIAL
 https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-#EXTINF:0 type="stream" channelId="217", EURONEWS
-https://euronews-euronews-spanish-2-mx.samsung.wurl.com/manifest/playlist.m3u8
+https://youtu.be/O9mOtdZ-nSk
 #EXTINF:0 type="stream" channelId="352", DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:0 type="stream" channelId="2883" group="News" logo="https://i.imgur.com/05S3yYZ.png", CNN International Europe (720p)
