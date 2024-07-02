@@ -57,6 +57,7 @@ https://www.youtube.com/embed/YHYB_U-J-vo?si=_xm3rFoNLYDR5rlr
 https://www.youtube.com/embed/8NWzku6SB4k?si=sDl9XXufhA0i6mMm
 #EXTINF:0 type="stream" channelId="-1" name="EURONEWS" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png", EURONEWS
 https://www.youtube.com/embed/O9mOtdZ-nSk?si=FU5u3v-K85zM7k9O
-#EXTINF:0 type="stream" channelId="-1" name="NAMIBIA" group="NATURE" logo="https://th.bing.com/th/id/OIG4.ASi71RW2EEls_r8gRV2G?pid=ImgGn", NAMIBIA
-#EXTINF:0 type="stream" channelId="-1" name="Africam Nkorho" group="NOW" logo="https://th.bing.com/th/id/OIG4.ofkYEP0a4qBjSkOvNUO4?pid=ImgGn", Africam Nkorho
-https://www.youtube.com/embed/dIChLG4_WNs?si=EJQynBbsSpAxxpmM
+#EXTINF:0 type="stream" channelId="-1" name="NAMIBIA" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ofkYEP0a4qBjSkOvNUO4?pid=ImgGn", NAMIBIA
+https://www.youtube.com/embed/ydYDqZQpim8?si=Hj_OkLCLu_JQOXNu
+#EXTINF:0 type="stream" channelId="-1" name="Africam Nkorho" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ASi71RW2EEls_r8gRV2G?pid=ImgGn", Africam Nkorho
+https://www.youtube.com/embed/_Tf7ImIRBeM?si=XTk_1RMH6lGCTphH
