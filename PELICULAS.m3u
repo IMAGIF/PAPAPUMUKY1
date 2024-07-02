@@ -1,18 +1,8 @@
 #EXTM3U
-#EXTINF:0 type="stream" channelId="-1" group="Movies" logo="https://i.imgur.com/pw4NZK1.png", MyTime movie network Spain (1080p)
-https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Movies" logo="https://i.imgur.com/NJYEYE3.png", Rakuten Action Movies
 https://rakuten-actionmovies-2-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="1320" name="La 1" group="Generalistas" logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg", La 1
 https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1300001EP_20230712T021331SQUARE.png_20230712021332.png", Baywatch – Los Vigilantes de la Playa
-https://i.mjh.nz/SamsungTVPlus/ESBD1300001EP.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD80000288_20230712T021347SQUARE.png_20230712021348.png", Runtime Acción
-https://i.mjh.nz/SamsungTVPlus/ESBD80000288.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA2200004G5_20220323T081719SQUARE.png_20220323081722.png", MyTime Movie Network
-https://i.mjh.nz/SamsungTVPlus/ESBA2200004G5.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ45000181E_20220323T081350SQUARE.png_20220323081353.png", Acción - Rakuten TV
-https://i.mjh.nz/SamsungTVPlus/ESAJ45000181E.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Dominican Republic" logo="https://i.imgur.com/DBvm7YS.png", AION TV (1080p)
 https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Family;Movies" logo="https://i.imgur.com/hboiinD.jpg", Rakuten TV Family Spain (720p)
@@ -30,27 +20,14 @@ https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTM3U
 #EXTINF:0 type="stream" channelId="-1" group="New Zealand", Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/bZWoDTg.png", Cine Sony (720p)
-https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/cine_720p/playlist.m3u8
+
 #EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/p16HNIM.png", Made in Hollywood
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
-#EXTINF:0 type="stream" channelId="1214" group="United States" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/512px-Sony_Movies_Logo.svg.png", Sony Movies (Sony Movie Channel)
-http://n1.klowdtv.net/live1/smc_720p/playlist.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA1400003LA_20230614T005905SQUARE.png_20230614005905.png", BBC Drama
-https://i.mjh.nz/SamsungTVPlus/ESBA1400003LA.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1300001EP_20230712T021331SQUARE.png_20230712021332.png", Baywatch – Los Vigilantes de la Playa
-https://i.mjh.nz/SamsungTVPlus/ESBD1300001EP.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Sports" logo="https://i.imgur.com/pxFamLr.png", ADO TV (720p)
-https://stream01.adotv-fm.bj/ado-tv-live/index.m3u8
-#EXTINF:0 type="stream" channelId="-1" name="TalkTV" group="UK" logo="https://upload.wikimedia.org/wikipedia/en/8/83/TalkTV_logo.png", TalkTV
-https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/talktv-live/index.m3u8
+
+
+
 #EXTINF:0 type="stream" channelId="-1" group="Dominican Republic" logo="https://i.imgur.com/DBvm7YS.png", AION TV (1080p)
 https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD80000288_20230712T021347SQUARE.png_20230712021348.png", Runtime Acción
-https://i.mjh.nz/SamsungTVPlus/ESBD80000288.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA2200004G5_20220323T081719SQUARE.png_20220323081722.png", MyTime Movie Network
-https://i.mjh.nz/SamsungTVPlus/ESBA2200004G5.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Spain" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ45000181E_20220323T081350SQUARE.png_20220323081353.png", Acción - Rakuten TV
-https://i.mjh.nz/SamsungTVPlus/ESAJ45000181E.m3u8
-#EXTINF:0 type="stream" channelId="2496" group="Sports" logo="https://i.imgur.com/XcrkfGh.png", TVMAX (720p)
-https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
+
+
+
