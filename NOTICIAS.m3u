@@ -3,14 +3,20 @@
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://play-lh.googleusercontent.com/cq_1HNMi5V8RqgMhWaya8xD0osTPnKWVI_ESCLF_F5lu7GeSDKyeErdbvvlU3j8tcaY", EL CONFIDENCIAL
 https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-#EXTINF:0 type="favorites" channelId="-1" name="RTVE 24H" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MqTVAchTeCB0YG9Ho8Kd4yaAlSQ83FNbfw&s", RTVE 24H
+#EXTINF:0 type="favorites" channelId="-1" name="EURONEWS" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MqTVAchTeCB0YG9Ho8Kd4yaAlSQ83FNbfw&s", EURONEWS
 https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:0 type="stream" channelId="-1" name="EURONEWS" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png", EURONEWS
+https://www.youtube.com/embed/O9mOtdZ-nSk?si=FU5u3v-K85zM7k9O
 #EXTINF:0 type="favorites" channelId="-1" name="DW" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8h0N8FvyY0rdIg0lfNP2noOFhE4vNelXcg&s", DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:0 type="stream" channelId="2883" group="NEWS" logo="https://i.imgur.com/05S3yYZ.png", CNN International Europe (720p)
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="2883" group="NEWS" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD800001D0_20230308T021423SQUARE.png_20230308021423.png", CNN
 https://i.mjh.nz/SamsungTVPlus/CHBD800001D0.m3u8
+#EXTINF:0 type="stream" channelId="-1" name="CNN" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png", CNN
+https://www.youtube.com/embed/YHYB_U-J-vo?si=_xm3rFoNLYDR5rlr
+#EXTINF:0 type="stream" channelId="-1" name="FOX" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/180px-Fox_News_Channel_logo.svg.png", FOX
+https://www.youtube.com/embed/YDfiTGGPYCk?si=nOJIVE2uyU0I7Ylk
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/xGlToly.png", Bloomberg TV+ UHD (2160p)
 https://bc20d7c2a7b14dd0ae827a2e3eb99116.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_Bloomberg/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTduVskC-NILQa7Nnt_ZpoEKF5doyClFY41sXPHER8g&s", ABC News USA EN
@@ -27,11 +33,6 @@ https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://ztnr.rtve.es/ztnr/1688885.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="RTVE 24H" group="NEWS" logo="https://i.imgur.com/WTDKOoM.png", RTVE 24H
 https://ztnr.rtve.es/ztnr/1694255.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/iCLFnWw.png", NASA TV Media (720p)
-https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/CH6VcTR.jpg", NASA TV Public (720p)
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/M87kbVk.png", Clarity 4K (2160p)
 https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2vzmnn0zl3exh-prod/amgclarity4k/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/lPyJhBN.png", UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
@@ -45,17 +46,3 @@ https://elche7tv.gestec-video.com/hls/canal2.m3u8
 https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3
 #EXTINF:0 type="stream" channelId="-1" name="Vaughan Radio" group="NEWS" logo="https://graph.facebook.com/GrupoVaughan/picture?width=200&height=200", Vaughan Radio
 https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
-#EXTINF:0 type="stream" channelId="-1" name="NASA" group="YOUTUBE" logo="https://th.bing.com/th/id/R.dfe000c4d39e10adeac73e968d0081c0?rik=2qecWrg5GwkLaA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnasa-logo-png-nasa-logo-1664.png&ehk=d%2bgvuoNz%2b0udsBSxL%2bAGF0N%2f1tWoj4H6GaKOJhRCIyQ%3d&risl=&pid=ImgRaw&r=0", NASA
-https://www.youtube.com/embed/mhJRzQsLZGg?si=Z9Rw2caTlgovxqei
-#EXTINF:0 type="stream" channelId="-1" name="FOX" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/180px-Fox_News_Channel_logo.svg.png", FOX
-https://www.youtube.com/embed/YDfiTGGPYCk?si=nOJIVE2uyU0I7Ylk
-#EXTINF:0 type="stream" channelId="-1" name="CNN" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png", CNN
-https://www.youtube.com/embed/YHYB_U-J-vo?si=_xm3rFoNLYDR5rlr
-#EXTINF:0 type="stream" channelId="-1" name="HURACAN" group="YOUTUBE" logo="https://tse2.mm.bing.net/th?id=OIG3.3DIw2Z0Ei8Y6_S8dWOZ9&pid=ImgGn", HURACAN
-https://www.youtube.com/embed/8NWzku6SB4k?si=sDl9XXufhA0i6mMm
-#EXTINF:0 type="stream" channelId="-1" name="EURONEWS" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png", EURONEWS
-https://www.youtube.com/embed/O9mOtdZ-nSk?si=FU5u3v-K85zM7k9O
-#EXTINF:0 type="stream" channelId="-1" name="NAMIBIA" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ofkYEP0a4qBjSkOvNUO4?pid=ImgGn", NAMIBIA
-https://www.youtube.com/embed/ydYDqZQpim8?si=Hj_OkLCLu_JQOXNu
-#EXTINF:0 type="stream" channelId="-1" name="Africam Nkorho" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ASi71RW2EEls_r8gRV2G?pid=ImgGn", Africam Nkorho
-https://www.youtube.com/embed/dIChLG4_WNs?si=E0EoJIWKZNjI-m7p
