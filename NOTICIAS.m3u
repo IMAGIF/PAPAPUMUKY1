@@ -39,8 +39,7 @@ https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:0 type="stream" channelId="2832" group="Portugal" logo="https://i.imgur.com/w7GV86i.png", RTP 1 (720p) [Not 24/7]
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-#EXTINF:0 type="stream" channelId="2832" name="RTP1" group="Portugal" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RTP1_-_Logo_2016.svg/640px-RTP1_-_Logo_2016.svg.png", RTP1
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTP2.pt" tvg-logo="https://i.imgur.com/T6WUqdn.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP 2 (720p) [Not 24/7]
 #EXTINF:0 type="stream" channelId="-1" name="RTP2 Ⓖ" group="Portugal" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLpR_lBIy9QXEthZxozlR8uPbXOllBJV5AddBUjWsqxvgkPd4xUy2A2l3D8i36dO1zcA&usqp=CAU", RTP 3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/chunklist_b1290000_DVR_slpt.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Undefined" logo="https://i.imgur.com/tjI0dLx.png", Elche 7 TV (576p)
