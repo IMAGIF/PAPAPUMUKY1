@@ -1,23 +1,23 @@
 #EXTM3U
-#EXTINF:0 type="stream" channelId="-1" name="Negocios TV" group="Informativos" logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" audio-track="ISO 639-1 ES", Negocios TV
+#EXTINF:0 type="stream" channelId="-1" name="Negocios TV" group="NEWS" logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" audio-track="ISO 639-1 ES", Negocios TV
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
-#EXTINF:0 type="stream" channelId="-1" logo="https://play-lh.googleusercontent.com/cq_1HNMi5V8RqgMhWaya8xD0osTPnKWVI_ESCLF_F5lu7GeSDKyeErdbvvlU3j8tcaY", EL CONFIDENCIAL
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://play-lh.googleusercontent.com/cq_1HNMi5V8RqgMhWaya8xD0osTPnKWVI_ESCLF_F5lu7GeSDKyeErdbvvlU3j8tcaY", EL CONFIDENCIAL
 https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-#EXTINF:-1 tvg-chno="1" tvg-tags="tdt" tvg-country="ES" tvg-language="" tvg-shift="" tvg-id="" group-title="Noticias" tvg-name="" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200",Euronews
+#EXTINF:-1 tvg-chno="1" tvg-tags="tdt" tvg-country="ES" tvg-language="" tvg-shift="" tvg-id="" group-title="NEWS" tvg-name="" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200",Euronews
 ##Origen: https://es.euronews.com/live
 #https://euronews-euronews-spanish-2-mx.samsung.wurl.com/manifest/playlist.m3u8
 https://39997b2f529e4793961899e546833a75.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_EuroNewsLive/playlist.m3u8
 #EXTINF:0 type="stream" channelId="352", DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:0 type="stream" channelId="2883" group="News" logo="https://i.imgur.com/05S3yYZ.png", CNN International Europe (720p)
+#EXTINF:0 type="stream" channelId="2883" group="NEWS" logo="https://i.imgur.com/05S3yYZ.png", CNN International Europe (720p)
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:0 type="stream" channelId="2883" group="Switzerland" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD800001D0_20230308T021423SQUARE.png_20230308021423.png", CNN
+#EXTINF:0 type="stream" channelId="2883" group="NEWS" logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD800001D0_20230308T021423SQUARE.png_20230308021423.png", CNN
 https://i.mjh.nz/SamsungTVPlus/CHBD800001D0.m3u8
-#EXTINF:0 type="stream" channelId="-1" logo="https://i.imgur.com/xGlToly.png", Bloomberg TV+ UHD (2160p)
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/xGlToly.png", Bloomberg TV+ UHD (2160p)
 https://bc20d7c2a7b14dd0ae827a2e3eb99116.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_Bloomberg/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTduVskC-NILQa7Nnt_ZpoEKF5doyClFY41sXPHER8g&s", ABC News USA EN
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:0 type="stream" channelId="-1" name="GB News" group="UK" logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/640px-GB_News_Logo.svg.png", GB News
+#EXTINF:0 type="stream" channelId="-1" name="GB News" group="NEWS" logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/640px-GB_News_Logo.svg.png", GB News
 https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 #EXTINF:0 type="stream" channelId="-1" logo="https://image.roku.com/developer_channels/prod/e05544ebbf9d0911e33072fd56b9724900b8e7e84fb53d21d6155a7850f359c0.png", OAN
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5e7cf6c7b156d500078c5f44/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -27,25 +27,25 @@ https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20
 https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
 #EXTINF:0 type="favorites" channelId="1321" group="Documentary" logo="https://i.imgur.com/3NwzqoB.png", La 2 (1080p)
 https://ztnr.rtve.es/ztnr/1688885.m3u8
-#EXTINF:0 type="favorites" channelId="-1" name="RTVE 24H" group="News (ES)" logo="https://i.imgur.com/WTDKOoM.png", RTVE 24H
+#EXTINF:0 type="favorites" channelId="-1" name="RTVE 24H" group="NEWS" logo="https://i.imgur.com/WTDKOoM.png", RTVE 24H
 https://ztnr.rtve.es/ztnr/1694255.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/iCLFnWw.png", NASA TV Media (720p)
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/iCLFnWw.png", NASA TV Media (720p)
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/CH6VcTR.jpg", NASA TV Public (720p)
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/CH6VcTR.jpg", NASA TV Public (720p)
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/M87kbVk.png", Clarity 4K (2160p)
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/M87kbVk.png", Clarity 4K (2160p)
 https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2vzmnn0zl3exh-prod/amgclarity4k/playlist.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="United Kingdom" logo="https://i.imgur.com/lPyJhBN.png", UN Web TV (540p)
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/lPyJhBN.png", UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
-#EXTINF:0 type="stream" channelId="2832" group="Portugal" logo="https://i.imgur.com/w7GV86i.png", RTP 1 (720p) [Not 24/7]
+#EXTINF:0 type="stream" channelId="2832" group="NEWS" logo="https://i.imgur.com/w7GV86i.png", RTP 1 (720p) [Not 24/7]
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-#EXTINF:0 type="stream" channelId="-1" name="RTP2 Ⓖ" group="Portugal" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLpR_lBIy9QXEthZxozlR8uPbXOllBJV5AddBUjWsqxvgkPd4xUy2A2l3D8i36dO1zcA&usqp=CAU", RTP 3
+#EXTINF:0 type="stream" channelId="-1" name="RTP3 Ⓖ" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLpR_lBIy9QXEthZxozlR8uPbXOllBJV5AddBUjWsqxvgkPd4xUy2A2l3D8i36dO1zcA&usqp=CAU", RTP 3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/chunklist_b1290000_DVR_slpt.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Undefined" logo="https://i.imgur.com/tjI0dLx.png", Elche 7 TV (576p)
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/tjI0dLx.png", Elche 7 TV (576p)
 https://elche7tv.gestec-video.com/hls/canal2.m3u8
-#EXTINF:0 type="stream" channelId="-1" name="esRadio" group="Radio_Populares" logo="https://graph.facebook.com/esradio/picture?width=200&height=200", esRadio
+#EXTINF:0 type="stream" channelId="-1" name="esRadio" group="NEWS" logo="https://graph.facebook.com/esradio/picture?width=200&height=200", esRadio
 https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3
-#EXTINF:0 type="stream" channelId="-1" name="Vaughan Radio" group="Radio_C. de Madrid" logo="https://graph.facebook.com/GrupoVaughan/picture?width=200&height=200", Vaughan Radio
+#EXTINF:0 type="stream" channelId="-1" name="Vaughan Radio" group="NEWS" logo="https://graph.facebook.com/GrupoVaughan/picture?width=200&height=200", Vaughan Radio
 https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
 #EXTINF:0 type="stream" channelId="-1" name="NASA" group="YOUTUBE" logo="https://th.bing.com/th/id/R.dfe000c4d39e10adeac73e968d0081c0?rik=2qecWrg5GwkLaA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnasa-logo-png-nasa-logo-1664.png&ehk=d%2bgvuoNz%2b0udsBSxL%2bAGF0N%2f1tWoj4H6GaKOJhRCIyQ%3d&risl=&pid=ImgRaw&r=0", NASA
 https://www.youtube.com/embed/mhJRzQsLZGg?si=Z9Rw2caTlgovxqei
@@ -54,4 +54,6 @@ https://www.youtube.com/embed/YDfiTGGPYCk?si=nOJIVE2uyU0I7Ylk
 #EXTINF:0 type="stream" channelId="-1" name="CNN" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png", CNN
 https://www.youtube.com/embed/YHYB_U-J-vo?si=_xm3rFoNLYDR5rlr
 #EXTINF:0 type="stream" channelId="-1" name="HURACAN" group="YOUTUBE" logo="data:image/png;base64,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", HURACAN
+https://www.youtube.com/embed/8NWzku6SB4k?si=sDl9XXufhA0i6mMm
+#EXTINF:0 type="stream" channelId="-1" name="EURONEWS" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png", EURONEWS
 https://www.youtube.com/embed/8NWzku6SB4k?si=sDl9XXufhA0i6mMm
