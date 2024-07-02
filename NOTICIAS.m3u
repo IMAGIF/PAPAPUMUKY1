@@ -3,11 +3,9 @@
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://play-lh.googleusercontent.com/cq_1HNMi5V8RqgMhWaya8xD0osTPnKWVI_ESCLF_F5lu7GeSDKyeErdbvvlU3j8tcaY", EL CONFIDENCIAL
 https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-#EXTINF:-1 tvg-chno="1" tvg-tags="tdt" tvg-country="ES" tvg-language="" tvg-shift="" group="NEWS" tvg-logo="https://graph.facebook.com/es.euronews/picture?width=200&height=200",Euronews
-##Origen: https://es.euronews.com/live
-#https://euronews-euronews-spanish-2-mx.samsung.wurl.com/manifest/playlist.m3u8
-https://39997b2f529e4793961899e546833a75.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_EuroNewsLive/playlist.m3u8
-#EXTINF:0 type="stream" channelId="352", group="NEWS" DW
+#EXTINF:0 type="favorites" channelId="-1" name="RTVE 24H" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MqTVAchTeCB0YG9Ho8Kd4yaAlSQ83FNbfw&s", RTVE 24H
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:0 type="favorites" channelId="-1" name="DW" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8h0N8FvyY0rdIg0lfNP2noOFhE4vNelXcg&s", DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:0 type="stream" channelId="2883" group="NEWS" logo="https://i.imgur.com/05S3yYZ.png", CNN International Europe (720p)
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
