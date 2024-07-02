@@ -17,17 +17,13 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionholly
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/cine_720p/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/p16HNIM.png", Made in Hollywood
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
-#EXTM3U
 #EXTINF:0 type="stream" channelId="-1" group="New Zealand", Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-
 #EXTINF:0 type="stream" channelId="-1" group="United States" logo="https://i.imgur.com/p16HNIM.png", Made in Hollywood
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
-
-
-
 #EXTINF:0 type="stream" channelId="-1" group="Dominican Republic" logo="https://i.imgur.com/DBvm7YS.png", AION TV (1080p)
 https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
-
+#EXTINF:0 type="stream" channelId="-1" name="CUENTOS IMAGIF" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ofkYEP0a4qBjSkOvNUO4?pid=ImgGn", IMAGIF
+https://www.youtube.com/embed/videoseries?si=T7ag2-5eOsCVKMT1&amp;list=PLoXhorB_HZR2X_ixps5lDkeCKSSrwik1g
 
 
