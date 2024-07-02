@@ -39,8 +39,6 @@ https://d6s2o8so4wk28.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:0 type="stream" channelId="2832" group="Portugal" logo="https://i.imgur.com/w7GV86i.png", RTP 1 (720p) [Not 24/7]
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-#EXTINF:0 type="stream" channelId="2832" name="RTP1" group="Portugal" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RTP1_-_Logo_2016.svg/640px-RTP1_-_Logo_2016.svg.png", RTP1
-https://www.youtube.com/embed/XuZAl-ZPEcA?si=2_k5QNXe3vQdXXTv
 #EXTINF:0 type="stream" channelId="-1" name="RTP2 Ⓖ" group="Portugal" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLpR_lBIy9QXEthZxozlR8uPbXOllBJV5AddBUjWsqxvgkPd4xUy2A2l3D8i36dO1zcA&usqp=CAU", RTP 3
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/chunklist_b1290000_DVR_slpt.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Undefined" logo="https://i.imgur.com/tjI0dLx.png", Elche 7 TV (576p)
@@ -49,3 +47,5 @@ https://elche7tv.gestec-video.com/hls/canal2.m3u8
 https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3
 #EXTINF:0 type="stream" channelId="-1" name="Vaughan Radio" group="Radio_C. de Madrid" logo="https://graph.facebook.com/GrupoVaughan/picture?width=200&height=200", Vaughan Radio
 https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
+#EXTINF:0 type="stream" channelId="-1" name="EURONEWXS" group="YOUTUBE" logo="https://th.bing.com/th/id/R.22fbb97305264e55fdf26ac52e98fa84?rik=04snz%2fGaFZXpVA&riu=http%3a%2f%2fweb.gcompostela.org%2fwp-content%2fuploads%2f2019%2f07%2feuronews-logo.jpg&ehk=Kwf9%2bcDSDdc3Xa1hB4s9M%2b2fTw44drQEzO9Nbld6b9Y%3d&risl=&pid=ImgRaw&r=0", EURONEWS
+https://www.youtube.com/embed/XuZAl-ZPEcA?si=2_k5QNXe3vQdXXTv
