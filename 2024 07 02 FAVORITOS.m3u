@@ -337,3 +337,13 @@ https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index
 https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
 #EXTINF:0 type="favorites" channelId="-1" group="Sports" logo="https://iili.io/J1kV1Bn.png", ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+#EXTINF:0 type="favorites" channelId="217" name="EURONEWXS" group="YOUTUBE" logo="https://th.bing.com/th/id/R.22fbb97305264e55fdf26ac52e98fa84?rik=04snz%2fGaFZXpVA&riu=http%3a%2f%2fweb.gcompostela.org%2fwp-content%2fuploads%2f2019%2f07%2feuronews-logo.jpg&ehk=Kwf9%2bcDSDdc3Xa1hB4s9M%2b2fTw44drQEzO9Nbld6b9Y%3d&risl=&pid=ImgRaw&r=0", EURONEWS
+https://www.youtube.com/embed/XuZAl-ZPEcA?si=2_k5QNXe3vQdXXTv
+#EXTINF:0 type="favorites" channelId="-1" name="NASA" group="YOUTUBE" logo="https://th.bing.com/th/id/R.dfe000c4d39e10adeac73e968d0081c0?rik=2qecWrg5GwkLaA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnasa-logo-png-nasa-logo-1664.png&ehk=d%2bgvuoNz%2b0udsBSxL%2bAGF0N%2f1tWoj4H6GaKOJhRCIyQ%3d&risl=&pid=ImgRaw&r=0", NASA
+https://www.youtube.com/embed/mhJRzQsLZGg?si=Z9Rw2caTlgovxqei
+#EXTINF:0 type="favorites" channelId="-1" group="Romania" logo="https://i.imgur.com/BaEyZto.png", Realitatea Sportivă (720p)
+https://stream.realitatea.net/realitatea/sportiva_md/playlist.m3u8
+#EXTINF:0 type="favorites" channelId="-1" group="Romania" logo="https://i.imgur.com/ow1HArj.png", TVE Internacional Europe-Asia [Geo-blocked]
+https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
+#EXTINF:0 type="favorites" channelId="1901" group="Romania" logo="https://i.imgur.com/EPmwuuv.png", Antena 1 (1080p)
+https://live1ag.antenaplay.ro/live_a1ro/live_a1ro.m3u8
