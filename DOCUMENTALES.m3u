@@ -13,3 +13,11 @@ https://www.youtube.com/embed/8NWzku6SB4k?si=sDl9XXufhA0i6mMm
 https://www.youtube.com/embed/ydYDqZQpim8?si=Hj_OkLCLu_JQOXNu
 #EXTINF:0 type="stream" channelId="-1" name="Africam Nkorho" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ASi71RW2EEls_r8gRV2G?pid=ImgGn", Africam Nkorho
 https://www.youtube.com/embed/dIChLG4_WNs?si=E0EoJIWKZNjI-m7p
+#EXTINF:0 type="favorites" channelId="-1" name="National Geographic Finland" group="Finland" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png", National Geographic Finland
+https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
+#EXTINF:0 type="favorites" channelId="-1" name="AccuWeather NOW" group="Weather" logo="https://i.imgur.com/M8wbVYK.png", AccuWeather NOW
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+#EXTINF:0 type="favorites" channelId="-1" name="Fox Weather" group="Weather" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/512px-Fox_Weather_logo.svg.png", Fox Weather
+https://lnc-fox-weather.tubi.video/index.m3u8
+#EXTINF:0 type="favorites" channelId="4606" name="WeatherNation" group="Weather" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/512px-WeatherNation_Logo.svg.png", WeatherNation
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5bdce04659ee03633e758130/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5bdce04659ee03633e758130&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=217&terminate=false&userId=
