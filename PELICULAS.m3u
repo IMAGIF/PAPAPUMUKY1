@@ -23,7 +23,8 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionholly
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Dominican Republic" logo="https://i.imgur.com/DBvm7YS.png", AION TV (1080p)
 https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
-#EXTINF:0 type="stream" channelId="-1" name="CUENTOS IMAGIF" group="YOUTUBE" logo="https://th.bing.com/th/id/OIG4.ofkYEP0a4qBjSkOvNUO4?pid=ImgGn", IMAGIF
+#EXTINF:0 type="stream" channelId="-1" name="CUENTOS IMAGIF" group="YOUTUBE" logo="https://raw.githubusercontent.com/IMAGIF/PAPAPUMUKY1/1416a3bbcbb1429849d24bbbcc3a4566cf45a60a/IMAGEN/RAYO%20ESPECTRAL.jpeg", IMAGIF
 https://www.youtube.com/embed/videoseries?si=T7ag2-5eOsCVKMT1&amp;list=PLoXhorB_HZR2X_ixps5lDkeCKSSrwik1g
-
+#EXTINF:0 type="stream" channelId="-1" name="CANCIONES IMAGIF" group="YOUTUBE" logo="https://raw.githubusercontent.com/IMAGIF/PAPAPUMUKY1/1416a3bbcbb1429849d24bbbcc3a4566cf45a60a/IMAGEN/RAYO%20ESPECTRAL.jpeg", IMAGIF
+https://www.youtube.com/embed/videoseries?si=FZKks-dQBVaRYst4&amp;list=PLoXhorB_HZR3vJ0DGy8vLAoWhxTSJwfSg
 
