@@ -51,3 +51,5 @@ https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
 https://www.youtube.com/embed/mhJRzQsLZGg?si=Z9Rw2caTlgovxqei
 #EXTINF:0 type="stream" channelId="-1" name="FOX" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/180px-Fox_News_Channel_logo.svg.png", FOX
 https://www.youtube.com/embed/YDfiTGGPYCk?si=nOJIVE2uyU0I7Ylk
+#EXTINF:0 type="stream" channelId="-1" name="CNN" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png", CNN
+https://www.youtube.com/embed/YDfiTGGPYCk?si=nOJIVE2uyU0I7Ylk
