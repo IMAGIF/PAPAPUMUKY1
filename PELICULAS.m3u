@@ -23,8 +23,8 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionholly
 https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Dominican Republic" logo="https://i.imgur.com/DBvm7YS.png", AION TV (1080p)
 https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
-#EXTINF:0 type="stream" channelId="-1" name="CUENTOS IMAGIF" group="YOUTUBE" logo="https://raw.githubusercontent.com/IMAGIF/PAPAPUMUKY1/main/IMAGEN/CUENTOS.jpg", IMAGIF
-https://www.youtube.com/embed/videoseries?si=T7ag2-5eOsCVKMT1&amp;list=PLoXhorB_HZR2X_ixps5lDkeCKSSrwik1g
-#EXTINF:0 type="stream" channelId="-1" name="CANCIONES IMAGIF" group="YOUTUBE" logo="https://github.com/IMAGIF/PAPAPUMUKY1/blob/1416a3bbcbb1429849d24bbbcc3a4566cf45a60a/IMAGEN/RAYO%20ESPECTRAL.jpeg", IMAGIF
-https://www.youtube.com/embed/videoseries?si=FZKks-dQBVaRYst4&amp;list=PLoXhorB_HZR3vJ0DGy8vLAoWhxTSJwfSg
+#EXTINF:0 type="stream" channelId="-1" name="ELEFANTES IMAGIF 1" group="YOUTUBE" logo="https://raw.githubusercontent.com/IMAGIF/PAPAPUMUKY1/main/IMAGEN/CUENTOS.jpg", ELEFANTES IMAGIF 1
+https://www.youtube.com/embed/4msWlq3MZUg?si=MC_Zb2eNK-nSbqyi
+#EXTINF:0 type="stream" channelId="-1" name="ELEFANTES IMAGIF 2" group="YOUTUBE" logo="https://raw.githubusercontent.com/IMAGIF/PAPAPUMUKY1/1416a3bbcbb1429849d24bbbcc3a4566cf45a60a/IMAGEN/RAYO%20ESPECTRAL.jpeg", ELEFANTES IMAGIF 2
+https://www.youtube.com/embed/s2Hy_s1L0FQ?si=xAeP9Wi2IJdWYQ-F
 
