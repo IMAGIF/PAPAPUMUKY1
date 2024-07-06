@@ -3,7 +3,7 @@
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://play-lh.googleusercontent.com/cq_1HNMi5V8RqgMhWaya8xD0osTPnKWVI_ESCLF_F5lu7GeSDKyeErdbvvlU3j8tcaY", EL CONFIDENCIAL
 https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
-#EXTINF:0 type="favorites" channelId="-1" name="EURONEWS" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MqTVAchTeCB0YG9Ho8Kd4yaAlSQ83FNbfw&s", EURONEWS
+#EXTINF:0 type="favorites" channelId="-1" name="24 HORAS" group="NEWS" logo="https://i.imgur.com/WTDKOoM.png", 24 HORAS
 https://ztnr.rtve.es/ztnr/1694255.m3u8
 #EXTINF:0 type="stream" channelId="-1" name="EURONEWS" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png", EURONEWS
 https://www.youtube.com/embed/O9mOtdZ-nSk?si=FU5u3v-K85zM7k9O
