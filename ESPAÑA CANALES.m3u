@@ -13,10 +13,8 @@ https://ztnr.rtve.es/ztnr/1688885.m3u8
 https://ztnr.rtve.es/ztnr/1694255.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="24 HORAS" group="NEWS" logo="https://i.imgur.com/WTDKOoM.png", 24 HORAS
 https://ztnr.rtve.es/ztnr/1694255.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/LiveNOW_from_FOX.png/640px-LiveNOW_from_FOX.png", FOX LIVE NOW
-https://www.youtube.com/embed/rXTAxGe3yK0?si=H6pQ-0qcBF92VmKq
-#EXTINF:0 type="stream" channelId="2832" group="NEWS" logo="https://i.imgur.com/w7GV86i.png", RTP 1 (720p) [Not 24/7]
-https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+
+
 #EXTINF:0 type="favorites" channelId="4029" group="Spain" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png", TV3CAT (1080p)
 https://directes-tv-int.ccma.cat/live-origin/tvi-hls/master.m3u8
 #EXTINF:0 type="favorites" channelId="2814" name="TV3" group="Cataluña" logo="https://pbs.twimg.com/profile_images/1269286508625891328/rVes9BS__200x200.png", TV3 GEO CAT
@@ -43,8 +41,7 @@ https://directes-tv-es.ccma.cat/live-origin/oca1-hls/master.m3u8
 
 #EXTINF:0 type="favorites" channelId="-1" name="Andalucía Cocina" group="Andalucía" logo="https://yt3.googleusercontent.com/ytc/APkrFKb6DZpbxOMbN_VANCdenLck4ceg7gxMk5tnkjmM=s200", Andalucía Cocina
 https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
-#EXTINF:0 type="favorites" channelId="-1" name="Anove TV" group="Galicia" logo="https://graph.facebook.com/anove.tv/picture?width=200&height=200", Anove TV
-https://205245.gvideo.io/mpegts/205245_786753/master_mpegts.m3u8
+
 #EXTINF:0 type="favorites" channelId="-1" name="Atresplayer Multicine" group="Eventuales" logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200", Atresplayer Multicine
 https://fast-channels.atresmedia.com/648ef18c1756b0e41daf83cc/648ef18c1756b0e41daf83cc.m3u8
 
@@ -166,19 +163,19 @@ https://eventos-23-secure2.akamaized.net/eventos_1-hls/master.m3u8
 https://eventos-23-secure2.akamaized.net/eventos_2-hls/master.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Telemadrid Internacional" group="Int. Europa" logo="https://graph.facebook.com/telemadrid/picture?width=200&height=200", Telemadrid Internacional
 https://new-international-23-secure2.akamaized.net/index.m3u8
-#EXTINF:0 type="favorites" channelId="-1" group="Sport" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsDh1S1RPbvbF_KB4NCbMZPuapcgN1ohcgrA&usqp=CAU", Turkmenistan Sport
-http://217.174.225.146/hls/ch004_720/index.m3u8
+
 #EXTINF:0 type="favorites" channelId="-1" name="Vaughan Radio" group="NEWS" logo="https://graph.facebook.com/GrupoVaughan/picture?width=200&height=200", Vaughan Radio
 https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
 #EXTINF:0 type="favorites" channelId="-1" name="Vinx TV Asturias" group="Deportivos" logo="https://graph.facebook.com/VinxTV/picture?width=200&height=200", Vinx TV Asturias
 https://tv.radiocast.es:5443/vinxtv/streams/vinxtvlive.m3u8
-#EXTINF:0 type="favorites" channelId="-1" group="Sports" logo="https://i.imgur.com/5WNBFmp.png", WAPA-DT2 (WAPA Deportes) (1080p)
-https://live.field59.com/wapa/wapa2/playlist.m3u8
+
 #EXTINF:0 type="favorites" channelId="-1" group="Puerto Rico" logo="https://i.imgur.com/DVASpQj.png", WKAQ-DT1 (Telemundo PR) (1080p)
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="WeatherNation USA" group="Int. América" logo="https://graph.facebook.com/WeatherNation/picture?width=200&height=200", WeatherNation USA
 https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="esRadio" group="Radio_Populares" logo="https://graph.facebook.com/esradio/picture?width=200&height=200", esRadio
 https://libertaddigital-libremercado-live.flumotion.com/libertaddigital/libremercado-high.mp3
-#EXTINF:0 type="favorites" channelId="1511" group="Sports" logo="https://i.imgur.com/NJsRFud.png", Беларусь 5 (1080p) [Not 24/7]
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
+
+
+#EXTINF:0 type="favorites" channelId="-1" group="Sport" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsDh1S1RPbvbF_KB4NCbMZPuapcgN1ohcgrA&usqp=CAU", Turkmenistan Sport
+http://217.174.225.146/hls/ch004_720/index.m3u8
