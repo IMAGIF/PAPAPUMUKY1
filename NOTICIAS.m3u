@@ -11,6 +11,9 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" name="FOX" group="YOUTUBE" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/180px-Fox_News_Channel_logo.svg.png", FOX
 https://www.youtube.com/embed/YDfiTGGPYCk?si=nOJIVE2uyU0I7Ylk
+#EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/LiveNOW_from_FOX.png/640px-LiveNOW_from_FOX.png", FOX LIVE NOW
+https://www.youtube.com/embed/rXTAxGe3yK0?si=H6pQ-0qcBF92VmKq
+
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/xGlToly.png", Bloomberg TV+ UHD (2160p)
 https://bc20d7c2a7b14dd0ae827a2e3eb99116.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_Bloomberg/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuTduVskC-NILQa7Nnt_ZpoEKF5doyClFY41sXPHER8g&s", ABC News USA EN
