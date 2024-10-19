@@ -3,11 +3,8 @@
 https://vaughanradioweb.streaming-pro.com:8058/vaughanradio.mp3
 #EXTINF:0 type="stream" channelId="-1" name="esRadio" group="NEWS" logo="https://graph.facebook.com/esradio/picture?width=200&height=200", esRadio
 https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3
-
-
 #EXTINF:0 type="stream" channelId="-1" name="Negocios TV" group="NEWS" logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" audio-track="ISO 639-1 ES", Negocios TV
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
-
 #EXTINF:0 type="favorites" channelId="1320" name="La 1" group="NEWS" logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg", La 1
 https://dh6vo1bovy43s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x3gcl32l5ffq2/La_1_ES.m3u8
 #EXTINF:0 type="favorites" channelId="1321" group="NEWS" logo="https://i.imgur.com/3NwzqoB.png", La 2 (1080p)
@@ -16,26 +13,21 @@ https://ztnr.rtve.es/ztnr/1688885.m3u8
 https://ztnr.rtve.es/ztnr/1694255.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="24 HORAS" group="NEWS" logo="https://i.imgur.com/WTDKOoM.png", 24 HORAS
 https://ztnr.rtve.es/ztnr/1694255.m3u8
-
 #EXTINF:0 type="stream" channelId="-1" group="NEWS" logo="https://i.imgur.com/lPyJhBN.png", UN Web TV (540p)
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:0 type="stream" channelId="2832" group="NEWS" logo="https://i.imgur.com/w7GV86i.png", RTP 1 (720p) [Not 24/7]
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
-
 #EXTINF:0 type="favorites" channelId="4029" group="Spain" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png", TV3CAT (1080p)
 https://directes-tv-int.ccma.cat/live-origin/tvi-hls/master.m3u8
 #EXTINF:0 type="favorites" channelId="2814" name="TV3" group="Cataluña" logo="https://pbs.twimg.com/profile_images/1269286508625891328/rVes9BS__200x200.png", TV3 GEO CAT
 https://directes-tv-cat.ccma.cat/live-origin/tv3-hls/master.m3u8
-
 #EXTINF:0 type="favorites" channelId="4038" name="TVG 2" group="Galicia" logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200", TVG 2
 https://crtvg-tvg2.flumotion.cloud/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="2531" name="TVG" group="Galicia" logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200", TVG
 https://crtvg-europa.flumotion.cloud/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="1320" name="La 1" group="Generalistas" logo="https://pbs.twimg.com/profile_images/899385012801470464/akSvNCqE_200x200.jpg", La 1
 https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8
-
 #EXTINF:0 type="favorites" channelId="1684" group="Spain" logo="https://i.imgur.com/tkjUFzb.png", Esport3 (1080p) [Geo-blocked]
 https://directes-tv-cat.ccma.cat/live-origin/esport3-hls/master.m3u8
-
 #EXTINF:0 type="stream" channelId="1322" name="Teledeporte" group="Deportivos" logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200", Teledeporte GEO
 https://ztnr.rtve.es/ztnr/1712295.m3u8
